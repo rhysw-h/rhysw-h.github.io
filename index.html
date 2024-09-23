@@ -108,7 +108,20 @@
 
 </script>
 
+<section>
+    <div class="chart-description">
+        <h2>Section 3: PL Stadium Capacities from the 20/21 Season</h2>
+        <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+            This chart shows the capacities of each ground of the teams playing in the 2020/21 Premier League season.
+        </p>
+    </div>
+    <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+</section>
 
+<script>
+    let figure_4_spec = "chartFootball3.json";
+    vegaembed('#Location4', figure_4_spec)
+</script>
 
 </body>
     
