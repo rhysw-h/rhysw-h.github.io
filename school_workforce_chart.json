@@ -4,12 +4,10 @@
     "data": {
       "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/teacher%20count%20proper%204csv.csv"
     },
-  
     "title": {
       "text": "Percentage of teachers of different ethnicities in the UK 2011-2024",
     "subtitle": "Source: School Workforce Census"
     },
-    
     "transform": [
       {
         "fold": ["whitep", "notwhitep"],  
@@ -33,7 +31,6 @@
         "axis": {
           "format": "%"}
       },
-  
       "color": {
         "field": "category",
         "type": "nominal",
