@@ -28,11 +28,6 @@
       "legend": {
         "labelExpr": "datum.value === 'whitep' ? 'White Teachers' : 'Non-White Teachers '"
       }
-    },
-    "tooltip": [
-      {"field": "date", "title": "Date", "type": "temporal", "format": "%Y"},
-      {"field": "category", "title": "Category"},
-      {"field": "value", "title": "Percentage", "format": "0.1%"}
-    ]
-  }
-}
+      }
+    }
+  

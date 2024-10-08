@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "250",
+  "data": {"url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/permanent-exclusions-by-ethnicity-table1.csv"},
+
+ "title": {
+"text": "Rate of exclusions from schools in England, by ethnicity",
+"subtitle":"Source: GOV.UK"},
+
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Ethnicity", "title": null},
+    "y": {"field": "Rate", "title": "Rate of exclusions", "type": "quantitative",
+    "axis": {"format": "%"}, "title": null}
+  }
+}
