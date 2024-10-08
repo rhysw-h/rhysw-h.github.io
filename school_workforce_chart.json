@@ -1,110 +1,38 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "School workforce by category.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/teacher%20count%20proper%204csv.csv"
-    },
-  
-    "title": {
-      "text": "Percentage of teachers of different ethnicities in the UK 2011-2024",
-    "subtitle": "Source: School Workforce Census"
-    },
-  
-    "transform": [
-      {
-        "fold": ["whitep", "notwhitep"],  
-        "as": ["category", "value"]  
-      }
-    ],
-    "mark": {
-      "type": "line",
-      "point": true
-    },
-    "encoding": {
-      "x": {
-        "field": "date",
-        "type": "temporal",
-        "title": false
-      },
-      "y": {
-        "field": "value",
-        "type": "quantitative",
-        "title": false,
-        "axis": {
-          "format": "%"}
-      },
-  
-      "color": {
-        "field": "category",
-        "type": "nominal",
-        "title": "Category",
-        "scale": {
-          "domain": ["whitep", "notwhitep"], 
-          "range": ["blue", "orange"] 
-        },
-        "legend": {
-          "labelExpr": "datum.value === 'whitep' ? 'Percentage of White Teachers' : 'Percentage of Non-White Teachers '"  
-        }
-      }
-      }
-    }
-    
-=======
-{
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "School workforce by category.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/teacher%20count%20proper%204csv.csv"
-    },
-    
-    "title": {
-      "text": "Percentage of teachers of different ethnicities in the UK 2011-2024",
-    "subtitle": "Source: School Workforce Census"
-    },
-
- "height": "200",
-  "width": "500",
-  "autosize": {
-    "type": "fit",
-    "contains": "padding"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "School workforce by category.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/teacher%20count%20proper%204csv.csv"
   },
-
-    "transform": [
-      {
-        "fold": ["whitep", "notwhitep"],  
-        "as": ["category", "value"]  
-      }
-    ],
-    "mark": {
-      "type": "line",
-      "point": true
+  "height": "container",
+  "width": 470,
+  "title": {
+    "text": "Percentage of teachers of different ethnicities in the UK 2011-2024",
+    "subtitle": "Source: School Workforce Census"
+  },
+  "transform": [{"fold": ["whitep", "notwhitep"], "as": ["category", "value"]}],
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": false},
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": false,
+      "axis": {"format": "%"}
     },
-    "encoding": {
-      "x": {
-        "field": "date",
-        "type": "temporal",
-        "title": false
-      },
-      "y": {
-        "field": "value",
-        "type": "quantitative",
-        "title": false,
-        "axis": {
-          "format": "%"}
-      },
-  
-      "color": {
-        "field": "category",
-        "type": "nominal",
-        "title": "Category",
-        "scale": {
-          "domain": ["whitep", "notwhitep"], 
-          "range": ["blue", "orange"] 
-        },
-        "legend": {
-          "labelExpr": "datum.value === 'whitep' ? 'Percentage of White Teachers' : 'Percentage of Non-White Teachers '"  
-        }
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "title": null,
+      "scale": {"domain": ["whitep", "notwhitep"], "range": ["blue", "orange"]},
+      "legend": {
+        "labelExpr": "datum.value === 'whitep' ? 'White Teachers' : 'Non-White Teachers '"
       }
-      }
-    }
-  
+    },
+    "tooltip": [
+      {"field": "date", "title": "Date", "type": "temporal", "format": "%Y"},
+      {"field": "category", "title": "Category"},
+      {"field": "value", "title": "Percentage", "format": "0.1%"}
+    ]
+  }
+}
