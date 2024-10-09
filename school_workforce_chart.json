@@ -29,5 +29,4 @@
         "labelExpr": "datum.value === 'whitep' ? 'White Teachers' : 'Non-White Teachers '"
       }
       }
-    }
-  
+    }}
