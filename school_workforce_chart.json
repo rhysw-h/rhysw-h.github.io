@@ -33,6 +33,11 @@
       "legend": {
         "labelExpr": "datum.value === 'whitep' ? 'White Teachers' : 'Non-White Teachers '"
       }
+<<<<<<< HEAD
     }
   }
 }
+=======
+      }
+    }}
+>>>>>>> 732693213bb6abaf014906900f4ba8b0ed9a7053
