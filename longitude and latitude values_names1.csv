@@ -1,0 +1,198 @@
+Country,Numeric code,Latitude (average),Longitude (average)
+Afghanistan,4,33,65
+Albania,8,41,20
+Algeria,12,28,3
+American Samoa,16,-14.3333,-170
+Andorra,20,42.5,1.6
+Angola,24,-12.5,18.5
+Anguilla,660,18.25,-63.1667
+Antigua and Barbuda,28,17.05,-61.8
+Argentina,32,-34,-64
+Armenia,51,40,45
+Australia,36,-27,133
+Austria,40,47.3333,13.3333
+Azerbaijan,31,40.5,47.5
+Bahamas,44,24.25,-76
+Bahrain,48,26,50.55
+Bangladesh,50,24,90
+Barbados,52,13.1667,-59.5333
+Belarus,112,53,28
+Belgium,56,50.8333,4
+Bhutan,64,27.5,90.5
+Bolivia,68,-17,-65
+Bosnia and Herzegovina,70,44,18
+Botswana,72,-22,24
+Brazil,76,-10,-55
+Brunei,96,4.5,114.6667
+Bulgaria,100,43,25
+Burkina Faso,854,13,-2
+Burundi,108,-3.5,30
+Cambodia,116,13,105
+Cameroon,120,6,12
+Canada,124,60,-95
+Cape Verde,132,16,-24
+Central African Republic,140,7,21
+Chad,148,15,19
+Chile,152,-30,-71
+China,156,35,105
+Colombia,170,4,-72
+Comoros,174,-12.1667,44.25
+Costa Rica,188,10,-84
+Croatia,191,45.1667,15.5
+Cuba,192,21.5,-80
+Cyprus,196,35,33
+Czech Republic,203,49.75,15.5
+Denmark,208,56,10
+Djibouti,262,11.5,43
+Dominican Republic,214,19,-70.6667
+DR Congo,180,0,25
+Ecuador,218,-2,-77.5
+Egypt,818,27,30
+El Salvador,222,13.8333,-88.9167
+Equatorial Guinea,226,2,10
+Eritrea,232,15,39
+Estonia,233,59,26
+Ethiopia,231,8,38
+Fiji,242,-18,175
+Finland,246,64,26
+France,250,46,2
+French Guiana,254,4,-53
+Gabon,266,-1,11.75
+Gambia,270,13.4667,-16.5667
+Georgia,268,42,43.5
+Germany,276,51,9
+Ghana,288,8,-2
+Gibraltar,292,36.1833,-5.3667
+Greece,300,39,22
+Grenada,308,12.1167,-61.6667
+Guadeloupe,312,16.25,-61.5833
+Guatemala,320,15.5,-90.25
+Guinea,324,11,-10
+Guyana,328,5,-59
+Haiti,332,19,-72.4167
+Honduras,340,15,-86.5
+Hong Kong,344,22.25,114.1667
+Hungary,348,47,20
+Iceland,352,65,-18
+India,356,20,77
+Indonesia,360,-5,120
+Iran,364,32,53
+Iraq,368,33,44
+Ireland,372,53,-8
+Israel,376,31.5,34.75
+Italy,380,42.8333,12.8333
+Ivory Coast,384,8,-5
+Jamaica,388,18.25,-77.5
+Japan,392,36,138
+Jordan,400,31,36
+Kazakhstan,398,48,68
+Kenya,404,1,38
+Kiribati,296,1.4167,173
+Kuwait,414,29.3375,47.6581
+Kyrgyzstan,417,41,75
+Laos,418,18,105
+Latvia,428,57,25
+Lebanon,422,33.8333,35.8333
+Lesotho,426,-29.5,28.5
+Liberia,430,6.5,-9.5
+Libya,434,25,17
+Lithuania,440,56,24
+Luxembourg,442,49.75,6.1667
+Madagascar,450,-20,47
+Malawi,454,-13.5,34
+Malaysia,458,2.5,112.5
+Maldives,462,3.25,73
+Mali,466,17,-4
+Malta,470,35.8333,14.5833
+Marshall Islands,584,9,168
+Martinique,474,14.6667,-61
+Mauritania,478,20,-12
+Mauritius,480,-20.2833,57.55
+Mexico,484,23,-102
+Micronesia,583,6.9167,158.25
+Moldova,498,47,29
+Monaco,492,43.7333,7.4
+Mongolia,496,46,105
+Montenegro,499,42,19
+Morocco,504,32,-5
+Mozambique,508,-18.25,35
+Myanmar,104,22,98
+Namibia,516,-22,17
+Nauru,520,-0.5333,166.9167
+Nepal,524,28,84
+Netherlands,528,52.5,5.75
+New Caledonia,540,-21.5,165.5
+New Zealand,554,-41,174
+Nicaragua,558,13,-85
+Niger,562,16,8
+Nigeria,566,10,8
+North Korea,408,40,127
+North Macedonia,807,41.8333,22
+Norway,578,62,10
+Oman,512,21,57
+Pakistan,586,30,70
+Palau,585,7.5,134.5
+Palestine,275,32,35.25
+Panama,591,9,-80
+Papua New Guinea,598,-6,147
+Paraguay,600,-23,-58
+Peru,604,-10,-76
+Philippines,608,13,122
+Poland,616,52,20
+Portugal,620,39.5,-8
+Puerto Rico,630,18.25,-66.5
+Qatar,634,25.5,51.25
+Romania,642,46,25
+Russia,643,60,100
+Rwanda,646,-2,30
+Saint Kitts and Nevis,659,17.3333,-62.75
+Saint Lucia,662,13.8833,-61.1333
+Samoa,882,-13.5833,-172.3333
+San Marino,674,43.7667,12.4167
+Sao Tome and Principe,678,1,7
+Saudi Arabia,682,25,45
+Senegal,686,14,-14
+Serbia,688,44,21
+Seychelles,690,-4.5833,55.6667
+Sierra Leone,694,8.5,-11.5
+Singapore,702,1.3667,103.8
+Slovakia,703,48.6667,19.5
+Slovenia,705,46,15
+Solomon Islands,90,-8,159
+Somalia,706,10,49
+South Africa,710,-29,24
+South Korea,410,37,127.5
+South Sudan,728,8,30
+Spain,724,40,-4
+Sri Lanka,144,7,81
+Sudan,736,15,30
+Suriname,740,4,-56
+Sweden,752,62,15
+Switzerland,756,47,8
+Syria,760,35,38
+Taiwan,158,23.5,121
+Tajikistan,762,39,71
+Tanzania,834,-6,35
+Thailand,764,15,100
+Timor-Leste,626,-8.55,125.5167
+Togo,768,8,1.1667
+Tonga,776,-20,-175
+Trinidad and Tobago,780,11,-61
+Tunisia,788,34,9
+Turkey,792,39,35
+Turkmenistan,795,40,60
+Tuvalu,798,-8,178
+Uganda,800,1,32
+Ukraine,804,49,32
+United Arab Emirates,784,24,54
+United Kingdom,826,54,-2
+United States,840,38,-97
+Uruguay,858,-33,-56
+Uzbekistan,860,41,64
+Vanuatu,548,-16,167
+Venezuela,862,8,-66
+Vietnam,704,16,106
+Wallis and Futuna,876,-13.3,-176.2
+Yemen,887,15,48
+Zambia,894,-15,30
+Zimbabwe,716,-20,30

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Tourist Arrivals Over Time by Country",
+  "data": {
+    "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/tourist%20arrivals%20by%20year.csv",
+    "format": {"type": "csv"}
+  },
+  "height": 350,
+  "width": 400,
+  "title": {
+    "text": "Tourist arrivals by country",
+    "subtitle": "Source: World Bank"
+  },
+  "transform": [
+    {
+      "calculate": "datum.country === 'JapanKorea' ? 'Japan & South Korea' : datum.country",
+      "as": "country"
+    },
+    {
+      "calculate": "datum.country === 'SouthAfrica' ? 'South Africa' : datum.country",
+      "as": "country"
+    },
+    {
+      "calculate": "datum.country === 'Japan & South Korea' ? '2002' : datum.country === 'Germany' ? '2006' : datum.country === 'SouthAfrica' ? '2010' : datum.country === 'Brazil' ? '2014' : datum.country === 'Russia' ? '2018' : ''",
+      "as": "hostYear"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "line", "strokeWidth": 2},
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "quantitative",
+          "title": "Years after World Cup"
+        },
+        "y": {"field": "value", "type": "quantitative", "title": null},
+        "color": {"field": "country", "type": "nominal", "title": "Country"},
+        "tooltip": [
+          {"field": "country", "title": "Country"},
+          {"field": "year", "title": "Years after World Cup"},
+          {"field": "value", "title": "Tourist Arrivals"},
+          {"field": "hostYear", "title": "Host Year"}
+        ]
+      }
+    },
+    {
+      "mark": "rule",
+      "encoding": {"x": {"value": 200.5}, "color": {"value": "black"}}
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 35},
+      "encoding": {
+        "x": {"field": "year", "type": "quantitative"},
+        "y": {"field": "value", "type": "quantitative"},
+        "color": {"field": "country", "type": "nominal"},
+        "tooltip": [
+          {"field": "country", "title": "Country"},
+          {"field": "year", "title": "Years after World Cup"},
+          {"field": "value", "title": "Tourist Arrivals"},
+          {"field": "hostYear", "title": "Host Year"}
+        ]
+      }
+    }
+  ]
+}
