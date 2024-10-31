@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/tourist%20expenditure%20wc2.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Entity",
+        "oneOf": ["Brazil", "France", "Japan+South Korea", "South Africa", "Germany"]
+      }
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Entity", "title": null,
+      "type": "nominal",
+      "axis": {"labelAngle": -90}
+    },
+    "y": {
+      "field": "index",
+      "type": "quantitative",
+      "axis": {"title": "Indexed Value (Year of World Cup = 100)"}
+    },
+    "xOffset": {
+      "field": "Year",
+      "type": "ordinal",
+      "sort": ["Year Before", "Year of World Cup", "Year After"]
+    },
+    "color": {
+      "field": "Year",
+      "type": "ordinal",
+      "scale": {
+        "domain": ["Year Before", "Year of World Cup", "Year After"],
+        "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "Entity", "type": "nominal"},
+      {"field": "Year", "type": "nominal"},
+      {"field": "value", "type": "quantitative", "format": ","},
+      {"field": "index", "type": "quantitative", "format": ".2f"}
+    ]
+  },
+  "title": {
+    "text": "World Cup Host Countries: Indexed Tourism Value (Year of World Cup = 100)",
+    "subtitle": "Index of tourism expenditure, Source: Our World in Data"
+  }
+}
