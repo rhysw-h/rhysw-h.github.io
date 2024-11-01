@@ -1,0 +1,22 @@
+Entity,Year,value,index
+Brazil,Year Before,8931184000,92.17893678
+Brazil,Year of World Cup,9688964000,100
+Brazil,Year After,10730565000,110.7503857
+France,Year Before,43329278000,92.52875609
+France,Year of World Cup,46827905000,100
+France,Year After,62209892000,132.8479077
+Germany,Year Before,39760093000,90.7021337
+Germany,Year of World Cup,43835896000,100
+Germany,Year After,43066462000,98.24473988
+Japan,Year Before,3748689000,90.78239362
+Japan,Year of World Cup,4129312800,100
+Japan,Year After,9684911000,234.5405027
+South Africa,Year Before,15335834000,101.100675
+South Africa,Year of World Cup,15168874000,100
+South Africa,Year After,15006234000,98.9278044
+South Korea,Year Before,13423406000,
+South Korea,Year of World Cup,11772923000,100
+South Korea,Year After,9775085000,
+Japan+South Korea,Year Before,17172095000,107.985413
+Japan+South Korea,Year of World Cup,15902235800,100
+Japan+South Korea,Year After,19459996000,122.3727043
