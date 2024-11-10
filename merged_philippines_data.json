@@ -1,0 +1,6491 @@
+[
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": 154.691744685736,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 145.965868357034,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 137.936373936063,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 132.7240608691,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 129.621996007385,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 126.593789832853,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 120.211352458706,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 116.876642442093,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 115.429504132997,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 114.656498576585,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 110.674621117395,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 107.888205739633,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 104.718417047184,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 100,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 96.3485477178423,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 92.448132780083,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 85.3941908713693,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 82.9875518672199,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 78.6721991701245,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 73.8589211618257,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 70.4564315352697,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 68.8796680497925,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 67.0539419087137,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 63.6514522821577,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 61.2167842323652,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 57.7849100968188,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 52.8996611341632,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 50.0989972337483,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 46.6140802213001,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 43.6330705394191,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 39.5275518672199,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 37.0398409405256,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 34.0906569847856,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": 28.584806362379,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": 25.4817980636238,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": 22.7023513139696,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": 19.9388174273859,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": 19.1590871369295,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": 18.9416113416321,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": 15.3867857404087,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": 10.2347283365258,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": 9.30181603920786,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": 8.43918552245876,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": 7.46285072380537,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": 6.31372122897355,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": 5.37185583863149,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": 5.00477902299168,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": 4.55399078719985,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": 4.17035074939091,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "FP.CPI.TOTL",
+                "value": "Consumer price index (2010 = 100)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": 3.90623450399154,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ],
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 75.2111,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 63.4019,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 53.7649,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 43.0266,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 44.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 41.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 39.2,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 36.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 34.7,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 32.7,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 30.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 29,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 25,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 6.22,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 5.97,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 5.74059,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 5.39764,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 5.24363,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 4.85767,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 4.33228,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 2.52401,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 1.98225,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 1.431608803,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 1.103405994,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 0.136912963,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 0.055946029,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 0.028585702,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 0.005844253,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 0,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 0,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 0,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": 0,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "IT.NET.USER.ZS",
+                "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        }
+    ],
+    {
+        "message": [
+            {
+                "id": "120",
+                "key": "Invalid value",
+                "value": "The provided parameter value is not valid"
+            }
+        ]
+    },
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": 437146372729.942,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 404353369604.631,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 394087359848.11,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 361751145451.597,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 376823402244.928,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 346841896583.515,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 328480736798.792,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 318627003012.52,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 306445871246.718,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 297483555344.802,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 283902828581.65,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 261920540972.102,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 234216730295.938,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 208368893151.144,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 175974755881.372,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 181624626327.361,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 155980408673.403,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 127652926368.069,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 107419977318.166,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 95001999685.3314,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 87039092974.2272,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 84307345887.543,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 78921234457.5487,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 83669788254.7279,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 85640171045.1254,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 74492416329.9142,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 94106317565.0846,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 94648084429.0341,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 84644328727.4825,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 73159336915.2718,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 62036529147.1831,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 60422328242.1803,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 51784144942.727,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": 50508286641.5746,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": 48513773720.673,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": 43152128958.6116,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": 37791488666.0743,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": 33987207294.9432,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": 34961486348.2382,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": 35730185633.5233,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": 37759179894.5298,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": 42206011275.1757,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": 40499388869.1271,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": 36848080898.8112,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": 31218296292.1295,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": 25762224562.6316,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": 22283109803.3521,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": 19381055197.2794,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": 16875240683.5083,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "NY.GDP.MKTP.CD",
+                "value": "GDP (current US$)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": 15607882555.2916,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        }
+    ],
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 27.5,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 27.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 28,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 28,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 28,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 27.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 27.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 27.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 28.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 28.3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 28.7,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 29.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 29.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 30.2,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 30.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 31.4,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 32.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 32.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 33.7,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 34.5,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 35.3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 36.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 36.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 37.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 38.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 40,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 41.4,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 43.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 45,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 47.3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 49.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 52.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": 56.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": 59.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": 63.2,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": 66.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": 69.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": 72.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": 74,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": 75.5,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": 76.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": 78,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": 79,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": 79.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": 80.7,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": 81.3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": 81.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": 81.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SH.DYN.MORT",
+                "value": "Mortality rate, under-5 (per 1,000 live births)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": 81.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        }
+    ],
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 6.5,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 10.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 11.3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 14.9,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 13.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 14.5,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SI.POV.DDAY",
+                "value": "Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ],
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": 2.233,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 2.598,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 3.398,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 2.522,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 2.237,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 2.338,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 2.552,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 2.695,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 3.068,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 3.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 3.497,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 3.504,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 3.592,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 3.605,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 3.858,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 3.72,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 3.434,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 4.052,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 3.795,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 3.554,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 3.527,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 3.615,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 3.698,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 3.77,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 3.758,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 3.712,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 3.618,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 3.637,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 3.71,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 3.796,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 3.897,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 3.882,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 3.77,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.UEM.TOTL.ZS",
+                "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ],
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 72.187,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 69.266,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 72.119,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 71.865,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 71.689,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 71.516,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 71.387,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 71.268,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 71.151,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 70.835,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 70.881,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 70.788,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 70.754,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 70.633,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 70.564,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 70.483,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 70.282,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 70.24,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 70.037,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 69.924,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 69.781,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 69.614,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 69.413,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 69.298,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 69.1,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 68.884,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 68.614,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 68.223,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 67.942,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 67.542,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 67.088,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 66.304,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": 65.909,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": 65.464,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": 64.898,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": 64.335,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": 63.745,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": 63.505,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": 63.112,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": 62.992,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": 62.784,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": 62.555,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": 62.499,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": 62.349,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": 62.185,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": 62.149,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": 61.614,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": 61.704,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.DYN.LE00.IN",
+                "value": "Life expectancy at birth, total (years)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": 61.68,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        }
+    ],
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 64,
+        "sourceid": "2",
+        "lastupdated": "2024-10-24"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": 117337368,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 115559009,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 113880328,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 112190977,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 110380804,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 108568836,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 106738501,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 104875266,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 103031365,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 101325201,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 99700107,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 98032317,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 96337913,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 94636700,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 92946951,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 91252326,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 89561377,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 87901835,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 86261250,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 84607501,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 82942837,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 81285572,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 79626086,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 77958223,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1999",
+            "value": 76249064,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1998",
+            "value": 74491918,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1997",
+            "value": 72718837,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1996",
+            "value": 70944969,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1995",
+            "value": 69250468,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1994",
+            "value": 67650283,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1993",
+            "value": 66083321,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1992",
+            "value": 64543525,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1991",
+            "value": 63039751,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1990",
+            "value": 61558898,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1989",
+            "value": 60127343,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1988",
+            "value": 58755923,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1987",
+            "value": 57415175,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1986",
+            "value": 56109838,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1985",
+            "value": 54812660,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1984",
+            "value": 53514959,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1983",
+            "value": 52219685,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1982",
+            "value": 50938522,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1981",
+            "value": 49679330,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1980",
+            "value": 48419546,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1979",
+            "value": 47154232,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1978",
+            "value": 45890739,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1977",
+            "value": 44646518,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1976",
+            "value": 43474370,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1975",
+            "value": 42394433,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        },
+        {
+            "indicator": {
+                "id": "SP.POP.TOTL",
+                "value": "Population, total"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "1974",
+            "value": 41388324,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+        }
+    ]
+]
