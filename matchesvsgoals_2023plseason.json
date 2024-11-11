@@ -1,6 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Scatter plot showing Goals vs Matches Played.",
+  "title": {
+    "text": "Matches vs Goals from the 2023-24 PL season",
+    "subtitle": "Source: ESPN",
+    "anchor": "middle",  
+    "fontSize": 16,
+    "font": "Arial",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic",
+    "color": "black",
+    "align": "center",  
+    "dy": -10
+  },
+  "width": 300,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/top_scorers_data1.csv",
     "format": {"type": "csv"}
@@ -16,8 +30,20 @@
     ]
   },
   "encoding": {
-    "x": {"field": "P", "type": "quantitative", "title": "Matches Played"},
-    "y": {"field": "G", "type": "quantitative", "title": "Goals Scored"},
-    "color": {"field": "Team", "type": "nominal", "legend": null}
+    "x": {
+      "field": "P", 
+      "type": "quantitative", 
+      "title": "Matches Played"
+    },
+    "y": {
+      "field": "G", 
+      "type": "quantitative", 
+      "title": "Goals Scored"
+    },
+    "color": {
+      "field": "Team", 
+      "type": "nominal", 
+      "legend": null
+    }
   }
 }
