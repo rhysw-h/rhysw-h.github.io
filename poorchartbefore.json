@@ -16,7 +16,7 @@
       "field": "vote",
       "type": "quantitative",
       "title": null,
-      "axis": {"format": ".0%"}
+      "axis": null  
     },
     "color": {
       "condition": {
