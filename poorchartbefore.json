@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "",
+  "height": {"step": 30},
+  "data": {
+    "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/poorchartbefore.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "candidate",
+      "sort": "-x",
+      "title": null
+    },
+    "x": {
+      "field": "vote",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"format": ".0%"}
+    },
+    "color": {
+      "condition": {
+        "test": "datum.candidate === 'Yang 22.5%'",
+        "value": "red"
+      },
+      "value": "blue"
+    }
+  }
+}
