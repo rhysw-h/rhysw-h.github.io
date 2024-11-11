@@ -48,34 +48,27 @@
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Rhys Hayes | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | <a
-            href="https://github.com/rhysw-h">GitHub</a>
+         <a href="https://github.com/rhysw-h">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
+        Portfolio of charts:
     </h3>
 
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Section 1: A basic chart</h2>
+            <h2>CC1: Hosting two basic charts</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                As a first example, we're using a basic chart from our repo.
+                Here I have used the VegaEmbed function to embed two vegaLite charts from the RDeconomist GitHub repository.
+
+                This first chart shows the relationship between GDP and life expectancy across many different countries around the world.
             </p>
         </div>
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     </section>
 
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
-
-
-    <!-- This is a script, it's a way to run JavaScript code on the page -->
     <script>
-        // This is a comment in JavaScript - it's a different language to HTML and CSS
+
 
         let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
@@ -93,7 +86,6 @@
 
 <section>
     <div class="chart-description">
-        <h2>Section 2: New Chart</h2>
         <p> 
             This chart shows the real GDP per capita at PPP of different countries.
         </p>
@@ -110,8 +102,10 @@
 
 <section>
     <div class="chart-description">
-        <h2>Section 3: The Size of the UK Economy</h2>
+        <h2>CC2: Building my own visualisations</h2>
         <p> 
+            In this section I used the Economics Observatory Data Hub to produce two visualisations and hosted them onto my website.
+            
             This chart shows the size of the UK economy using quarterly nominal GDP. 
         </p>
     </div>
@@ -125,7 +119,6 @@
 
 <section>
     <div class="chart-description">
-        <h2>Section 4: Productivity of the UK from 1971-2023</h2>
         <p>
             This chart shows UK prodctivity using an Index of Output per Hour.
         </p>
@@ -140,7 +133,7 @@
 
 <section>
     <div class="chart-description">
-        <h2>Section 5: Legacies of Empire: What Britain needs to do</h2>
+        <h2>CC3: Creating visualisations from "Legacies of Empire: What Britain needs to do"</h2>
         <p>
             One of the main talking points was the lack of ethnic minorities working in schools across the UK. This chart shows that although the number of white teachers and non-white teachers has been converging over the past years, the gap is still too big to consider that any progress has been made.
         </p>
@@ -166,6 +159,51 @@
     let figure_6_spec = "exclusions.json";
     vegaEmbed('#Location6', figure_6_spec);
 </script>
+
+<section>
+    <div class="chart-description">
+        <h2>CC4: Replicating, then improving an existing chart</h2>
+        <p>
+            There are many bad examples of visualisations online and this task was to improve upon one of them. I took a visualisation from a US political election page and have recreated their chart. The chart is a poor example due to the lack of x axis and disproportional bars making it seem like the winning margin was much more than reality.
+        </p>
+    </div>
+    <figure id="Location7"></figure> 
+</section>
+
+<script>
+    let figure_7_spec = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/poorchartbefore.json";
+    vegaEmbed('#Location7', figure_7_spec);
+</script>
+
+<script>
+    let figure_8_spec = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/poorchartvisualisation.json";
+    vegaEmbed('#Location8', figure_8_spec);
+</script>
+
+<section>
+    <div class="chart-description">
+        <p>
+            I then recreated this with the inclusion of the x axis and have made the bars proportional to each other.
+        </p>
+    </div>
+    <figure id="Location8"></figure> 
+</section>
+
+<section>
+    <div class="chart-description">
+        <h2>CC5: Creating a datascraper then a visualisation using the data found</h2>
+        <p>
+            I used <a href="https://colab.research.google.com/drive/14GBMwyTqvlpy1EMnJcB3dV6gAHRWNpAz?authuser=1#scrollTo=Xh-hP_Ti5D9F" target="_blank">Python</a> to create my datascraper and decided to scrape the goals scored vs games played table from the 2023-24 Premier League season, then created a scatter plot of goals scored vs games played for the top goalscorers that season.
+        </p>
+    </div>
+    <figure id="Location7"></figure> 
+</section>
+
+<script>
+    let figure_9_spec = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/matchesvsgoals_2023plseason.json";
+    vegaEmbed('#Location9', figure_9_spec);
+</script>
+
 
 </body>
     
