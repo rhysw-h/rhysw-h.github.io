@@ -47,6 +47,11 @@
         }
       ]
     },
-    "title": "World Cup Teams: GDP per Capita vs Points per Game (Bubble Size = Participations)"
+    "title": {
+      "text": "GDP per Capita vs Points per Game of Participants",
+      "subtitle": "Source: IMF and Wikipedia",
+      "subtitleFontSize": 12,
+      "subtitleFontStyle": "italic"
+    }
   }
   
