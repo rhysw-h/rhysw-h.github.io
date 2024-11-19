@@ -37,7 +37,7 @@
         "scale": {
           "type": "linear",
           "scheme": "viridis",
-          "domain": [0, 200],
+          "domain": [0, 110],
           "clamp": true
         }
       },
