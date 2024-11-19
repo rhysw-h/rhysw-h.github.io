@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title": "Map of Russian Federal Subjects - Regional GDP (2022)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/ru.json",
+      "format": {
+        "property": "features"
+      }
+    },
+    "projection": {
+      "type": "mercator"
+    },
+    "transform": [
+      {
+        "lookup": "properties.name",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/updated_russian_grdp.csv"
+          },
+          "key": "Federal subject",
+          "fields": ["2022 (billion USD)"]
+        }
+      }
+    ],
+    "mark": {
+      "type": "geoshape",
+      "stroke": "white",
+      "strokeWidth": 0.5
+    },
+    "encoding": {
+      "color": {
+        "field": "2022 (billion USD)",
+        "type": "quantitative",
+        "title": "GDP (billion USD)",
+        "scale": {
+          "type": "linear",
+          "scheme": "viridis",
+          "domain": [0, 200],
+          "clamp": true
+        }
+      },
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "Federal Subject"},
+        {"field": "2022 (billion USD)", "type": "quantitative", "title": "GDP (billion USD)", "format": ".2f"}
+      ]
+    }
+  }
+  

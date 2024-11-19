@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 # Load GRDP data
-grdp_url = "https://en.wikipedia.org/wiki/List_of_Russian_federal_subjects_by_GRDP"
+grdp_url = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/updated_russian_grdp.csv"
 grdp_df = pd.read_html(grdp_url)[0]
 
 # Load GeoJSON data
