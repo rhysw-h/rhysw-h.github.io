@@ -1,43 +1,101 @@
 import pandas as pd
-import requests
 
-# Load GRDP data
-grdp_url = "https://en.wikipedia.org/wiki/List_of_Russian_federal_subjects_by_GRDP"
-grdp_df = pd.read_html(grdp_url)[0]
-
-# Load GeoJSON data
-geojson_url = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/ru.geojson"
-geojson_data = requests.get(geojson_url).json()
-
-# Example mapping to fix inconsistencies between datasets
-name_corrections = {
-    "Moscow": "Moskva", 
-    "Saint Petersburg": "City of St. Petersburg",
-    "Krasnoyarsk": "Krasnoyarsk Krai",
-    "Omsk": "Omsk Oblast",
-    "Saratov": "Saratov Oblast",
-    "Primor'ye": "Primorsky Krai",
-    "Tyumen'": "Tyumen Oblast",
-    "Kaliningrad": "Kaliningrad Oblast",
-    "Khabarovsk": "Khabarovsk Krai",
-    "Tula": "Tula Oblast",
-    "Chita": "Zabaykalsky Krai",  # Chita was part of Zabaykalsky Krai
-    "Bashkortostan": "Bashkortostan Republic",  # Add full name for clarity
-    # Add more corrections as needed
+# Define the mapping of names between List 1 and List 2
+name_mapping = {
+    'Adygea': 'Adygey',
+    'Altai Krai': 'Altay',
+    'Altai Republic': 'Gorno-Altay',
+    'Amur Oblast': 'Amur',
+    'Arkhangelsk Oblast': 'Arkhangel\'sk',
+    'Astrakhan Oblast': 'Astrakhan\'',
+    'Bashkortostan': 'Bashkortostan',
+    'Belgorod Oblast': 'Belgorod',
+    'Bryansk Oblast': 'Bryansk',
+    'Buryatia': 'Buryat',
+    'Chechnya': 'Chechnya',
+    'Chelyabinsk Oblast': 'Chelyabinsk',
+    'Chukotka Autonomous Okrug': 'Chukchi Autonomous Okrug',
+    'Chuvashia': 'Chuvash',
+    'Dagestan': 'Dagestan',
+    'Ingushetia': 'Ingush',
+    'Irkutsk Oblast': 'Irkutsk',
+    'Ivanovo Oblast': 'Ivanovo',
+    'Jewish Autonomous Oblast': 'Yevrey',
+    'Kabardino-Balkaria': 'Kabardin-Balkar',
+    'Kaliningrad Oblast': 'Kaliningrad',
+    'Kalmykia': 'Kalmyk',
+    'Kaluga Oblast': 'Kaluga',
+    'Kamchatka Krai': 'Kamchatka',
+    'Karachay-Cherkessia': 'Karachay-Cherkess',
+    'Karelia': 'Karelia',
+    'Kemerovo Oblast': 'Kemerovo',
+    'Khabarovsk Krai': 'Khabarovsk',
+    'Khakassia': 'Khakass',
+    'Khanty-Mansi Autonomous Okrug': 'Khanty-Mansiy',
+    'Kirov Oblast': 'Kirov',
+    'Komi Republic': 'Komi',
+    'Kostroma Oblast': 'Kostroma',
+    'Krasnodar Krai': 'Krasnodar',
+    'Krasnoyarsk Krai': 'Krasnoyarsk',
+    'Kurgan Oblast': 'Kurgan',
+    'Kursk Oblast': 'Kursk',
+    'Leningrad Oblast': 'Leningrad',
+    'Lipetsk Oblast': 'Lipetsk',
+    'Magadan Oblast': 'Maga Buryatdan',
+    'Mari El': 'Mariy-El',
+    'Mordovia': 'Mordovia',
+    'Moscow': 'Moskva',
+    'Moscow Oblast': 'Moskovskaya',
+    'Murmansk Oblast': 'Murmansk',
+    'Nenets Autonomous Okrug': 'Nenets',
+    'Nizhny Novgorod Oblast': 'Nizhegorod',
+    'North Ossetia–Alania': 'North Ossetia',
+    'Novgorod Oblast': 'Novgorod',
+    'Novosibirsk Oblast': 'Novosibirsk',
+    'Omsk Oblast': 'Omsk',
+    'Orenburg Oblast': 'Orenburg',
+    'Penza Oblast': 'Penza',
+    'Perm Krai': 'Perm\'',
+    'Primorsky Krai': 'Primor\'ye',
+    'Pskov Oblast': 'Pskov',
+    'Republic of Crimea': 'Republic of Crimea',
+    'Rostov Oblast': 'Rostov',
+    'Russian Federation': 'Russian Federation',
+    'Ryazan Oblast': 'Ryazan\'',
+    'Saint Petersburg': 'City of St. Petersburg',
+    'Sakha Republic': 'Sakha (Yakutia)',
+    'Sakhalin Oblast': 'Sakhalin',
+    'Samara Oblast': 'Samara',
+    'Saratov Oblast': 'Saratov',
+    'Sevastopol': 'Sevastopol',
+    'Smolensk Oblast': 'Smolensk',
+    'Stavropol Krai': 'Stavropol\'',
+    'Sverdlovsk Oblast': 'Sverdlovsk',
+    'Tambov Oblast': 'Tambov',
+    'Tatarstan': 'Tatarstan',
+    'Tomsk Oblast': 'Tomsk',
+    'Tula Oblast': 'Tula',
+    'Tuva': 'Tuva',
+    'Tver Oblast': 'Tver\'',
+    'Tyumen Oblast': 'Tyumen\'',
+    'Udmurtia': 'Udmurt',
+    'Ulyanovsk Oblast': 'Ul\'yanovsk',
+    'Vladimir Oblast': 'Vladimir',
+    'Volgograd Oblast': 'Volgograd',
+    'Vologda Oblast': 'Vologda',
+    'Voronezh Oblast': 'Voronezh',
+    'Yamalo-Nenets Autonomous Okrug': 'Yamal-Nenets',
+    'Yaroslavl Oblast': 'Yaroslavl',
+    'Zabaykalsky Krai': 'Chita'
 }
 
-# Apply corrections to GRDP dataset
-grdp_df["Federal subject"] = grdp_df["Federal subject"].replace(name_corrections)
+# Load the CSV data from the URL
+url = 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/russian_grdp.csv'
+df = pd.read_csv(url)
 
-# Apply corrections to GeoJSON data
-for feature in geojson_data['features']:
-    region_name = feature["properties"]["name"]
-    if region_name in name_corrections:
-        feature["properties"]["name"] = name_corrections[region_name]
+# Rename the regions in the dataframe according to the mapping
+df['Federal subject'] = df['Federal subject'].replace(name_mapping)
 
-
-# Display regions that were not matched
-missing_regions = [feature["properties"]["name"] for feature in geojson_data['features']
-                   if feature["properties"].get("GRDP_billion_RUB") is None]
-
-print("Missing regions:", missing_regions)
+# Save the updated dataframe to a new CSV or inspect it
+df.to_csv('updated_russian_grdp.csv', index=False)
+print(df.head())  # Display the first few rows to verify the changes
