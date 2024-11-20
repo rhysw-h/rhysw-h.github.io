@@ -27,4 +27,23 @@ Event Year,Label,Country Name,Relative Time,GDP Growth
 2010,Winner,Spain,T+1,-0.814384777
 2010,Winner,Spain,T+2,-2.958922132
 2010,Host,South Africa,T-2,3.191043886
-2010,Host
+2010,Host,South Africa,T-1,-1.538089135
+2010,Host,South Africa,T,3.039732881
+2010,Host,South Africa,T+1,3.168556279
+2010,Host,South Africa,T+2,2.396232385
+2006,Winner,Italy,T-2,1.423594158
+2006,Winner,Italy,T-1,0.817848974
+2006,Winner,Italy,T,1.790639681
+2006,Winner,Italy,T+1,1.48707298
+2006,Winner,Italy,T+2,-0.962012841
+2006,Host,Germany,T-2,1.175088132
+2006,Host,Germany,T-1,0.731707164
+2006,Host,Germany,T,3.816441913
+2006,Host,Germany,T+1,2.976455131
+2006,Host,Germany,T+2,0.959879134
+2002,Winner,Brazil,T-2,4.387949447
+2002,Winner,Brazil,T-1,1.389896401
+2002,Winner,Brazil,T,3.053461859
+2002,Winner,Brazil,T+1,1.140828998
+2002,Winner,Brazil,T+2,5.759964637
+2002,Host,Japan & South Korea,T,0.041962499
