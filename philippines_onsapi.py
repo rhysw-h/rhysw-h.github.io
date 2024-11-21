@@ -9,17 +9,17 @@ output_directory = "philippines_data/"
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
-# List of indicator codes to fetch
+# 9 indicator codes to fetch
 indicator_codes = [
     "SP.POP.TOTL",  # Total population
     "SP.DYN.LE00.IN",  # Life expectancy at birth
     "NY.GDP.MKTP.CD",  # GDP (current US$)
     "SL.UEM.TOTL.ZS",  # Unemployment, total (% of total labor force)
     "FP.CPI.TOTL",  # Consumer price index
-    "SI.POV.DDAY",  # Poverty headcount ratio at $1.90 a day (2011 PPP)
-    "NE.EXP.GOVT.ZS",  # Government expenditure on education, total (% of GDP)
     "IT.NET.USER.ZS",  # Internet users (per 100 people)
-    "SH.DYN.MORT"  # Mortality rate, under-5 (per 1,000 live births)
+    "SH.DYN.MORT",  # Mortality rate, under-5 (per 1,000 live births)
+    "SP.URB.TOTL.IN.ZS",  # Urban population (% of total population)
+    "EG.FEC.RNEW.ZS"  # Renewable energy consumption (% of total final energy)
 ]
 
 # Loop through each indicator code to download data
