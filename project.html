@@ -137,3 +137,25 @@
     vegaEmbed('#Location4', figure_4_spec)
 
 </script>
+
+<section>
+    <div class="chart-description">
+        <h2></h2>
+        <p> 
+            I then created a vegalite map containing the federal subjects of Russia with their respective regional GDPs. The GRDP data was datascraped from Wikipedia with this Python code. I then layered the stadium locations from the 2018 World Cup and noticed how almost every one chosen was in a region with high GDP, and how all of them were located in Western Russia, probably for convenience for supporters. 
+            
+            I had some issues getting this map running as I had to make the Russian federal subject names consistent across both datasets, and pretty much all of them were different due to abbreviations or slightly different spellings. I ran a python script to change the respective names and another to check whether there were any differences before I ran my vegalite code.
+        
+        </p>
+    </div>
+    <figure id="Location5"></figure>
+</section>
+
+<script>
+
+
+    let figure_5_spec = "russian stadiums on chloropleth map.json"; 
+
+    vegaEmbed('#Location5', figure_5_spec)
+
+</script>

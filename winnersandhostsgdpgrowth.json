@@ -1,0 +1,62 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "GDP Growth of World Cup Hosts and Winners",
+    "title": {
+      "text": "GDP Growth of World Cup Hosts and Winners",
+      "subtitle": "Source: World Bank"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/hostvswinnerwc.csv"
+    },
+    "transform": [
+      {
+        "filter": "datum['Event Year'] != 2002 && datum['Event Year'] != 2018 && datum['Event Year'] != 2022"
+      }
+    ],
+    "facet": {
+      "field": "Event Year",
+      "type": "ordinal",
+      "title": "",
+      "columns": 3
+    },
+    "spec": {
+      "width": 250,
+      "height": 200,
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Relative Time",
+          "type": "ordinal",
+          "title": "",
+          "axis": {"labelAngle": 0},
+          "sort": ["T-2", "T-1", "T", "T+1", "T+2"]
+        },
+        "xOffset": {
+          "field": "Label",
+          "type": "nominal",
+          "title": "Country Type"
+        },
+        "y": {
+          "field": "GDP Growth",
+          "type": "quantitative",
+          "title": ""
+        },
+        "color": {
+          "field": "Label",
+          "type": "nominal",
+          "title": "Country Type",
+          "scale": {
+            "domain": ["Host", "Winner"],
+            "range": ["#1f77b4", "#ff7f0e"]
+          }
+        },
+        "tooltip": [
+          {"field": "Country Name", "type": "nominal", "title": "Country"},
+          {"field": "Label", "type": "nominal", "title": "Role"},
+          {"field": "Relative Time", "type": "ordinal", "title": "Time"},
+          {"field": "GDP Growth", "type": "quantitative", "title": "GDP Growth (%)"}
+        ]
+      }
+    }
+  }
+  
