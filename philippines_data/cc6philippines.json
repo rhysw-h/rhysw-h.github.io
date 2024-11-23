@@ -1,0 +1,171 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": null}},
+    "columns": 3,
+    "concat": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/FP.CPI.TOTL.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "CPI", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "CPI"}
+          ]
+        },
+        "title": "Consumer Price Index",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/IT.NET.USER.ZS.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "% of Population", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": ""},
+            {"field": "value", "type": "quantitative", "title": "% of Population"}
+          ]
+        },
+        "title": "Internet Users",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/EG.FEC.RNEW.ZS.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "title": "% of total final energy consumption",
+            "scale": {"zero": false}
+          },
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "% of total final energy consumption"}
+          ]
+        },
+        "title": "Renewable Energy Consumption",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/NY.GDP.MKTP.CD.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "Current US$", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "Current US$"}
+          ]
+        },
+        "title": "GDP",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/SH.DYN.MORT.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "per 1,000 live births", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "per 1,000 live births"}
+          ]
+        },
+        "title": "Under-5 Mortality Rate",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/SL.UEM.TOTL.ZS.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line", "point": false},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "% of total labor force", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "% of total labor force"}
+          ]
+        },
+        "title": "Unemployment Rate",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/SP.DYN.LE00.IN.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "Years", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "Years"}
+          ]
+        },
+        "title": "Life Expectancy",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/SP.POP.TOTL.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {"field": "value", "type": "quantitative", "title": "Total", "scale": {"zero": false}},
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "Total"}
+          ]
+        },
+        "title": "Total Population",
+        "transform": [{"filter": "datum.value != null"}]
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/philippines_data/SP.URB.TOTL.IN.ZS.json",
+          "format": {"type": "json", "property": "1"}
+        },
+        "mark": {"type": "line"},
+        "encoding": {
+          "x": {"field": "date", "type": "temporal", "title": ""},
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "title": "% of total population",
+            "scale": {"zero": false}
+          },
+          "tooltip": [
+            {"field": "date", "type": "temporal", "title": "Year"},
+            {"field": "value", "type": "quantitative", "title": "% of total population"}
+          ]
+        },
+        "title": "Urban Population",
+        "transform": [{"filter": "datum.value != null"}]
+      }
+    ]
+  }
+  
