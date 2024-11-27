@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Scatter plot of Frozen Chips price over time with opacity for density.",
+    "title": {
+      "text": "Price of 'FROZEN CHIPS 900G-1.5KG' over time",
+      "subtitle": "Source: ONS",
+      "anchor": "middle",
+      "fontSize": 16,
+      "font": "Arial",
+      "subtitleFontSize": 12,
+      "subtitleFontStyle": "italic",
+      "color": "black",
+      "align": "center",
+      "dy": -10
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/frozen_chips_data.csv"
+    },
+    "mark": {"type": "point", "opacity": 0.5},
+    "encoding": {
+      "x": {"field": "year", "type": "ordinal", "title": ""},
+      "y": {"field": "price", "type": "quantitative", "title": "Price (£)"},
+      "tooltip": [
+        {"field": "year", "type": "ordinal"},
+        {"field": "price", "type": "quantitative"}
+      ]
+    }
+  }

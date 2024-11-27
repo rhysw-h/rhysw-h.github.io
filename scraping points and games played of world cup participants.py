@@ -13,13 +13,12 @@ soup = BeautifulSoup(response.content, "html.parser")
 tables = soup.find_all("table", {"class": "wikitable"})
 target_table = None
 
-# Locate the specific table based on its content
 for table in tables:
     if "Rank" in str(table):  # Look for keyword 'Rank' in the table headers
         target_table = table
         break
 
-# Parse the table
+
 if target_table:
     rows = target_table.find_all("tr")
     data = []
@@ -33,11 +32,9 @@ if target_table:
     # Convert to DataFrame
     df = pd.DataFrame(data, columns=headers)
 
-    # Clean up the DataFrame (e.g., remove footnotes or special characters)
+    # Clean up the Dataframe
     df.replace(r'\[.*?\]', '', regex=True, inplace=True)
 
     # Save to CSV
     df.to_csv("national_team_appearances.csv", index=False)
-    print("Data saved to 'national_team_appearances.csv'!")
-else:
-    print("Target table not found.")
+

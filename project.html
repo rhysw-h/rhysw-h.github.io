@@ -1,161 +1,218 @@
-
 <!DOCTYPE html>
-<html> 
-    <!-- HTML is heirarchial: tags like this define elements on the page. 
-    Each tag does something different. For example:
-        - The <html> tag defines the whole document.
-        - The <h1> tag defines a large heading
-        - The <p> tag defines a paragraph
-        - Tags appear as an opening <div> and closing </div> pair
-    -->
-
-<head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
-
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>Soccernomics</title> <!-- The title displayed in the browser tab, not on the page itself -->
-
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccernomics: The Economics of the Football World Cup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
     <style>
-        #chartGrid {
-            display: flex;
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
         }
-        
+        .topnav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #00264d;
+            padding: 10px 0;
+        }
+        .topnav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .topnav a:hover {
+            background-color: #00509e;
+        }
+        .main-section {
+            background-color: #001f3f;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        .main-section h1 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 48px;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }     
+        .chart-section {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .chart-description {
+            width: 80%; /* Optional: Adjusts the width of charts */
+    margin: 20px auto; /* Centers the figure element */
+    display: block;
+        }
+
+        .chart-description {
+    margin-bottom: 20px;
+    text-align: center; /* Centers descriptions */
+}
+.small-button {
+        display: inline-block;
+        background-color: #0eb7ff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .small-button:hover {
+        background-color: #0e8bff; /* Slightly darker hover colour */
+    }
+
+        figure {
+            width: 100%;
+            margin: 0;
+        }
+        #backToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #00264d;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        #backToTopBtn:hover {
+            background-color: #00509e;
+        }
     </style>
 </head>
-
-<body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
-        Soccernomics: The Economics of the Football World Cup
-    </h1>
-   
-    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        My project is...
-    </h3>
-
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
-    <section>
-        <div class="chart-description">
-            <h2>How hosting the World Cup impacts tourism</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                I looked at whether there was an increase in tourism arrivals during the years of the world cup in countries that have hosted it over the past __ years.
-            </p>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="project.html">Project</a>
+    </div>
+    <div class="main-section">
+        <h1>Soccernomics: The Economics of the Football World Cup</h1>
+    </div>
+    <div class="content-container">
+        <h3>This project examines the relationship between football and economics, focusing on the FIFA World Cup. It aims to explore the potential benefits of hosting the tournament by analysing data on tourism arrivals, tourism expenditure, and GDP growth in host nations. The project also looks at the economic impact of sponsorship on corporate stock prices and investigates whether there is any correlation between a country’s GDP per capita and its performance in the tournament. Using a range of data visualisations, including maps and charts, this work aims to provide a deeper understanding of the World Cup’s economic significance and global influence.</h3>
+        <div class="chart-section">
+            <div class="chart-description">
+                <h2>Is hosting the World Cup beneficial?</h2>
+                <p>I looked at whether there was an increase in tourism arrivals during the years of the world cup in countries that have hosted it.</p>
+            </div>
+            <figure id="Location1"></figure>
         </div>
-        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-    </section>
+        <div class="chart-section">
+            <div class="chart-description">
+                <p>I then looked at whether there was an increase in tourism expenditure during the years of the world cup in the same countries.</p>
+            </div>
+            <figure id="Location2"></figure>
+        </div>
+        <div class="chart-section">
+            <div class="chart-description">
+                <h2></h2>
+                <p>This chart shows the GDP growth for World Cup winners and host countries. This was to see whether there was a benefit to winning the World Cup compared to hosting it.</p>
+            </div>
+            <figure id="Location3"></figure>
+        </div>
+        <div class="chart-section">
+            <div class="chart-description">
+                <h2>Conclusion 1</h2>
+                <p>I observed a positive trend in tourism arrivals in the years following the World Cup, suggesting that more tourists may have visited the host country during the event and continued to do so afterwards. Every host country in our analysis, with the exception of Russia, experienced an increase in tourist arrivals. Russia's deviation from this trend is likely attributable to its conflict with Ukraine during that period, which may have deterred visitors. Additionally, we noted an increase in tourism expenditure in three out of the five host countries examined. However, the increase was not substantial enough to attribute solely to the impact of hosting the World Cup. There did seem to be a trend where World Cup hosts ended up with a higher GDP growth than the winners but it is unclear whether hosting the tournament over winning it caused this.</p>
+            </div>
+        </div>
+        <div class="chart-section">
+            <div class="chart-description">
+                <h2>World Cup Sponsors</h2>
+                <p>The 2022 World Cup in Qatar had 4 main sponsors: Adidas, Hyundai, Coca-cola, and Visa. I created a chart of their stock prices before, during and after the world cup to see whether their values went up due to the sponsorship. I rebased each one on 100 to make comparison easier.</p>
+            </div>
+            <figure id="Location4"></figure>
+        </div>
+        <div class="chart-section">
+            <div class="chart-description">
+                <h2>GDP per Capita vs World Cup Performance</h2>
+                <p>Next I created a bubble chart of GDP per capita of World Cup participants and compared it to their points per game of all the tournaments they took part in. A bigger bubble means that the team has participated in more competitions. This was created by datascraping a table of all the teams' performances from Wikipedia and dividing points by games played. I then merged this dataset with a GDP per Capita dataset I found on IMF.</p>
+                <p>There doesn't seem to be much correlation between GDP per Capita and performance in World Cups but we can see that teams that have participated in more competitions have also achieved the most points per game for the most part.</p>
+            </div>
+            <figure id="Location5"></figure>
+        </div>
+        <div class="chart-section">
+            <div class="chart-description">
+                <h2>Russia World Cup Stadiums and Regional GDP</h2>
+                <p>I then created a vegalite map containing the federal subjects of Russia with their respective regional GDPs. The GRDP data was datascraped from Wikipedia with this Python code. I then layered the stadium locations from the 2018 World Cup and noticed how almost every one chosen was in a region with high GDP, and how all of them were located in Western Russia, probably for convenience for supporters.</p>
+            
+            </div>
+            <figure id="Location6"></figure>
+        </div>
 
+        <div>
+            <h2>Data Cleaning Challenges</h2>
+                <p>
+                    One of the challenges I encountered was creating the points-per-game versus GDP per capita chart. I began by scraping points data from a Wikipedia table and calculating points per game for each country by dividing total points by games played. I also had to standardise the country names in the GDP per capita dataset to match those in the World Cup participants dataset, allowing me to merge the two.
+                        </p>
+                        <a href="https://colab.research.google.com/drive/1ouUSVA2GaRntv0ES2FsSOj3DD9w0EQNC?usp=sharing" target="_blank" class="small-button">Google Colab for PPG vs GDPPC</a>
+                    <p>As well as this, I initially attempted to scrape data from the Yahoo Finance website, but this was unsuccessful. Instead, I used the Yfinance API to collect stock prices from 2022 to 2024. I then wrote a Python script to combine these prices into a single CSV file and rebased all values to 100 at the start for easier comparison.
+                        </p>
+                        <a href="https://colab.research.google.com/drive/1tCrrA2NOHJKPy318t_WLp3yKcwVzcC9C?usp=sharing" target="_blank" class="small-button">Google Colab for Stock Data</a>
+                    <p>Finally, the Russian regional GDP map presented a significant challenge due to inconsistencies between the federal subject names in the geojson file and the names in the regional GDP table I scraped from Wikipedia. Some names were spelled differently, and others were entirely mismatched. I resolved this by writing a Python script to rename regions in one dataset and iteratively check for consistency until all names matched.
+                </p>
+                <a href="https://colab.research.google.com/drive/18JRp40Cjhmqc-0n4330mrlgFKRFtqyt9?usp=sharing" target="_blank" class="small-button">Scraping and changing names of Russian GRDP</a>
+        </div>
+        <div>
+            <h2>Final Conclusion</h2>
+                <p>
+                    This project has highlighted various aspects of the economic impact of the FIFA World Cup, from tourism and GDP growth to corporate sponsorship. While there was clear evidence of increased tourism to host countries, the correlation between hosting the tournament and long-term economic benefits remains inconclusive. The analysis of stock prices of World Cup sponsors also showed some signs of increasing from sponsorship, albeit some fluctuations, but the effects were not significant enough to draw definitive conclusions. The GDP per capita versus World Cup performance chart revealed little correlation between a nation’s economic status and its football success, although countries with more tournament experience tended to perform better. Finally, the exploration of Russian regional GDP and stadium locations provided insights into the concentration of wealth and infrastructure, specifically football stadiums in certain regions, however it is likely this is due to easier access for travelling fans. Overall, while the World Cup does seem to offer some short-term economic benefits, its long-term impact is complex and influenced by various external factors.
+                </p>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to Top</button>
     <script>
-
-
-        let figure_1_spec = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/touristarrivalswc.json"; 
-
-        vegaEmbed('#Location1', figure_1_spec)
-
+        function embedChart(elementId, specUrl) {
+            vegaEmbed('#' + elementId, specUrl, {actions: true}).catch(console.error);
+        }
+        embedChart('Location1', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/touristarrivalswc.json');
+        embedChart('Location2', 'tourism_expenditure.json');
+        embedChart('Location3', 'winnersandhostsgdpgrowth.json');
+        embedChart('Location4', '2022worldcupstocks.json');
+        embedChart('Location5', 'gdppc vs world cup participants ppg.json');
+        embedChart('Location6', 'russian stadiums on chloropleth map.json');
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("backToTopBtn").style.display = "block";
+            } else {
+                document.getElementById("backToTopBtn").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
-
-<section>
-    <div class="chart-description">
-        <p> 
-            I then looked at whether there was an increase in tourism expenditure during the years of the world cup in the same countries.
-        </p>
-    </div>
-    <figure id="Location2"></figure>
-</section>
-
-<script>
-
-
-    let figure_2_spec = "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/tourism_expenditure.json"; 
-
-    vegaEmbed('#Location2', figure_2_spec)
-
-</script>
-
-<section>
-    <div class="chart-description">
-        <h2>Conclusion for Tourism</h2>
-        <p>
-            We observed a positive trend in tourism arrivals in the years following the World Cup, suggesting that more tourists may have visited the host country during the event and continued to do so afterwards. Every host country in our analysis, with the exception of Russia, experienced an increase in tourist arrivals. Russia's deviation from this trend is likely attributable to its conflict with Ukraine during that period, which may have deterred visitors. Additionally, we noted an increase in tourism expenditure in three out of the five host countries examined. However, the increase was not substantial enough to attribute solely to the impact of hosting the World Cup.
-        </p>
-    </div>
-</section>
-
-
-<section>
-    <div class="chart-description">
-        <h2>World Cup Sponsors</h2>
-        <p> 
-            The 2022 World Cup in Qatar had 4 main sponsors:
-            -Adidas,
-            -Hyundai,
-            -Coca-cola,
-            -Visa.
-
-            I created a chart of their stock prices before, during and after the world cup to see whether their values went up due to the sponsorship. I rebased each one on 100 to make comparison easier.
-
-        
-        </p>
-    </div>
-    <figure id="Location3"></figure>
-</section>
-
-<script>
-
-
-    let figure_3_spec = "2022worldcupstocks.json"; 
-
-    vegaEmbed('#Location3', figure_3_spec)
-
-</script>
-
-<section>
-    <div class="chart-description">
-        <h2></h2>
-        <p> 
-            Next I created a bubble chart of GDP per capita of World Cup participants and compared it to their points per game of all the tournaments they took part in. A bigger bubble means that the team has participated in more competitions. This was created by datascraping a table of all the teams' performances from Wikipedia and dividing points by games played. I then merged this dataset with a GDP per Capita dataset I found on IMF.
-            
-            There doesn't seem to be much correlation between GDP per Capita and performance in World Cups but we can see that teams that have participated in more competitions have also achieved the most points per game for the most part.
-        
-        </p>
-    </div>
-    <figure id="Location4"></figure>
-</section>
-
-<script>
-
-
-    let figure_4_spec = "gdppc vs world cup participants ppg.json"; 
-
-    vegaEmbed('#Location4', figure_4_spec)
-
-</script>
-
-<section>
-    <div class="chart-description">
-        <h2></h2>
-        <p> 
-            I then created a vegalite map containing the federal subjects of Russia with their respective regional GDPs. The GRDP data was datascraped from Wikipedia with this Python code. I then layered the stadium locations from the 2018 World Cup and noticed how almost every one chosen was in a region with high GDP, and how all of them were located in Western Russia, probably for convenience for supporters. 
-            
-            I had some issues getting this map running as I had to make the Russian federal subject names consistent across both datasets, and pretty much all of them were different due to abbreviations or slightly different spellings. I ran a python script to change the respective names and another to check whether there were any differences before I ran my vegalite code.
-        
-        </p>
-    </div>
-    <figure id="Location5"></figure>
-</section>
-
-<script>
-
-
-    let figure_5_spec = "russian stadiums on chloropleth map.json"; 
-
-    vegaEmbed('#Location5', figure_5_spec)
-
-</script>
+</body>
+</html>

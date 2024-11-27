@@ -1,28 +1,27 @@
 import requests
 import os
 
-# Base URL for the World Bank API
 base_url = "https://api.worldbank.org/v2/country/PH/indicator/"
 
-# Directory where files will be saved
+# where to save files
 output_directory = "philippines_data/"
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
-# 9 indicator codes to fetch
+# 9 indicators
 indicator_codes = [
     "SP.POP.TOTL",  # Total population
     "SP.DYN.LE00.IN",  # Life expectancy at birth
-    "NY.GDP.MKTP.CD",  # GDP (current US$)
-    "SL.UEM.TOTL.ZS",  # Unemployment, total (% of total labor force)
-    "FP.CPI.TOTL",  # Consumer price index
-    "IT.NET.USER.ZS",  # Internet users (per 100 people)
-    "SH.DYN.MORT",  # Mortality rate, under-5 (per 1,000 live births)
-    "SP.URB.TOTL.IN.ZS",  # Urban population (% of total population)
-    "EG.FEC.RNEW.ZS"  # Renewable energy consumption (% of total final energy)
+    "NY.GDP.MKTP.CD",  # GDP
+    "SL.UEM.TOTL.ZS",  # Unemployment
+    "FP.CPI.TOTL",  # CPI
+    "IT.NET.USER.ZS",  # Internet users
+    "SH.DYN.MORT",  # Mortality rate
+    "SP.URB.TOTL.IN.ZS",  # Urban population 
+    "EG.FEC.RNEW.ZS"  # Renewable energy consumption
 ]
 
-# Loop through each indicator code to download data
+# Looping each indicator code
 for indicator in indicator_codes:
     api_url = f"{base_url}{indicator}?format=json"
     

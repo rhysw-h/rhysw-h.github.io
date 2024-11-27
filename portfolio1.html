@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@800&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 
+    <!-- Styles -->
     <style>
         body {
             margin: 0;
             font-family: 'Open Sans', sans-serif;
             background-color: #f5f5f5;
             color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
 
         .topnav {
@@ -27,7 +23,6 @@
             align-items: center;
             background-color: #00264d;
             padding: 10px 0;
-            width: 100%;
         }
 
         .topnav a {
@@ -49,7 +44,6 @@
             color: white;
             text-align: center;
             padding: 40px 0;
-            width: 100%;
         }
 
         .main-section h1 {
@@ -65,20 +59,18 @@
             flex-direction: column;
             align-items: center;
             padding: 20px 0;
-            width: 100%;
-            max-width: 800px;
         }
 
         .chart {
             margin: 20px 0;
-            width: 100%;
+            width: 90%;
+            max-width: 800px;
         }
 
         .task-section {
             margin-bottom: 50px;
-            width: 100%;
+            width: 90%;
             max-width: 800px;
-            text-align: center;
         }
 
         .task-title {
@@ -91,75 +83,62 @@
             margin-bottom: 20px;
         }
 
-        .small-button {
-        display: inline-block;
-        background-color: #0eb7ff;
-        color: #fff;
-        font-size: 14px;
-        font-weight: bold;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease-in-out;
-    }
-
-    .small-button:hover {
-        background-color: #0e8bff; /* Slightly darker hover colour */
-    }
-
-        img[src="yang.png"] {
-            max-width: 50%;
-            display: block;
-            margin: 0 auto;
-        }
-
-        #backToTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 30px;
-            z-index: 99;
-            font-size: 18px;
-            border: none;
-            outline: none;
+        .footer {
+            text-align: center;
             background-color: #00264d;
             color: white;
-            cursor: pointer;
-            padding: 15px;
-            border-radius: 4px;
+            padding: 15px 0;
+            font-size: 14px;
         }
 
-        #backToTopBtn:hover {
-            background-color: #00509e;
+        .footer p {
+            margin: 5px 0;
         }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 50%; /* Resize yang.png */
+            height: auto;
+        }
+
     </style>
+
+    <!-- Vega Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="project.html">Project</a>
     </div>
 
+    <!-- Main Section -->
     <div class="main-section">
         <h1>PORTFOLIO</h1>
     </div>
 
+    <!-- Chart Container -->
     <div class="chart-container">
+        <!-- CC1. Hosting -->
         <div class="task-section">
             <h2 class="task-title">CC1. Hosting</h2>
             <div id="chart1" class="chart"></div>
             <div id="chart2" class="chart"></div>
         </div>
 
+        <!-- CC2. Building -->
         <div class="task-section">
             <h2 class="task-title">CC2. Building</h2>
             <div id="chart3" class="chart"></div>
             <div id="chart4" class="chart"></div>
         </div>
 
+        <!-- CC3. Debating -->
         <div class="task-section">
             <h2 class="task-title">CC3. Debating</h2>
             <p class="task-description">One of the main talking points was the lack of ethnic minorities working in schools across the UK.</p>
@@ -169,50 +148,53 @@
             <p class="task-description">While it is true that Black Carribbean students are double more likely to be excluded than the average exclusion rate, exclusions are much more prevalent among Irish travellers and the Roma.</p>
         </div>
 
+        <!-- CC4. Replication -->
         <div class="task-section">
             <h2 class="task-title">CC4. Replication</h2>
-            <img src="yang.png" alt="Original Chart">
+            <img src="yang.png" alt="Original Chart" style="max-width: 100%;">
             <div id="chart7" class="chart"></div>
             <div id="chart8" class="chart"></div>
-            <p class="task-description">Original chart lacked an x-axis, exaggerating Yang's win. I restored accurate scores, added the x-axis, and retained Yang's red bar for clarity.</p>
+            <p class="task-description">[Space for explanation]</p>
         </div>
 
+        <!-- CC5. Scraper -->
         <div class="task-section">
             <h2 class="task-title">CC5. Scraper</h2>
-            <p><a href="https://colab.research.google.com/drive/14GBMwyTqvlpy1EMnJcB3dV6gAHRWNpAz?authuser=1#scrollTo=Xh-hP_Ti5D9F" target="_blank" class="small-button">Google Colab Notebook for CC5</a></p>
+            <p>Google Colab Notebook: <a href="https://colab.research.google.com/drive/14GBMwyTqvlpy1EMnJcB3dV6gAHRWNpAz?authuser=1#scrollTo=Xh-hP_Ti5D9F" target="_blank">Link</a></p>
             <div id="chart9" class="chart"></div>
-            <p class="task-description">I chose the <a href="https://www.espn.co.uk/football/stats/_/league/ENG.1/season/2023/view/scoring/english-premier-league" target="_blank">Premier League top scorers table from ESPN</a> as it’s easily identifiable and well-structured providing clear numerical data ideal for accurate web scraping.</p>
+            <p class="task-description">[Space for explanation]</p>
         </div>
 
+        <!-- CC6. Loops -->
         <div class="task-section">
             <h2 class="task-title">CC6. Loops</h2>
             <div id="chart10" class="chart"></div>
-            <p><a href="https://colab.research.google.com/drive/1IjqJyvyLq4iAD4EYuTL_VKAn7oCcFwin?authuser=1" target="_blank" class="small-button">Google Colab Notebook for CC6</a></p></p>
         </div>
 
+        <!-- CC7. Maps -->
         <div class="task-section">
             <h2 class="task-title">CC7. Maps</h2>
             <div id="chart11" class="chart"></div>
             <div id="chart12" class="chart"></div>
-            <p class="task-description">The choropleth map illustrates Russia's regional GDP distribution, with federal subjects shaded to represent economic output variations, highlighting disparities across the country’s territories.</p>
+            <p class="task-description">[Space for explanation]</p>
         </div>
 
+        <!-- CC8. Analytics charts -->
         <div class="task-section">
             <h2 class="task-title">CC8. Analytics charts</h2>
             <div id="chart13" class="chart"></div>
             <div id="chart14" class="chart"></div>
         </div>
 
+        <!-- CC9. Big Data -->
         <div class="task-section">
             <h2 class="task-title">CC9. Big Data</h2>
             <div id="chart15" class="chart"></div>
-            <p>A scatter plot of frozen chip prices over time. I filtered relevant IDs in Python, exported to CSV, and adjusted Vega-Lite opacity for density.</p>
-            <p><a href="https://colab.research.google.com/drive/1Rxnx3xqf3WDDLfBEo92fxFVrSHeRmaXZ?usp=sharing" target="_blank" class="small-button">Google Colab for Frozen Chip Data</a></p>
             <div id="chart16" class="chart"></div>
-            <p>A UK map showing fresh/grilled chicken prices per kg (1998–2024), highlighting regional price differences over time.</p>
-            <p><a href="https://colab.research.google.com/drive/1CiNHYruy7hQI71vMeoNf08Okx9-Vg77V?usp=sharing" target="_blank" class="small-button">Google Colab for Chicken Data</a></p>
+            <p class="task-description">[Space for explanation]</p>
         </div>
 
+        <!-- CC10. Interactive Visualisations -->
         <div class="task-section">
             <h2 class="task-title">CC10. Interactive Visualisations</h2>
             <div id="chart17" class="chart"></div>
@@ -220,23 +202,20 @@
         </div>
     </div>
 
-    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to Top</button>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </div>
 
     <script>
+        // Function to embed Vega-Lite charts
         function embedChart(elementId, specUrl) {
-            vegaEmbed('#' + elementId, specUrl, {
-                actions: {
-                    export: true,
-                    source: true,
-                    compiled: true,
-                    editor: true
-                },
-                theme: 'quartz'
-            }).catch(console.error);
+            vegaEmbed('#' + elementId, specUrl, {actions: false}).catch(console.error);
         }
 
+        // Embed all charts
         embedChart('chart1', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/wfootball.json');
-        embedChart('chart2', 'https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/library/chartLine2.json');
+        embedChart('chart2', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/interactive.json');
         embedChart('chart3', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/povertyph.json');
         embedChart('chart4', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/ukproductivity.json');
         embedChart('chart5', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/school_workforce_chart.json');
@@ -248,16 +227,10 @@
         embedChart('chart11', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/map of russia and regions.json');
         embedChart('chart12', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/russia chloropleth regional gdp.json');
         embedChart('chart13', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/matchesvsgoals_2023plseason.json');
-        embedChart('chart14', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/matchesvsgoals_2023plseason.json');
-        embedChart('chart15', 'frozen chips.json');
-        embedChart('chart16', 'chickenbyregion.json');
-        embedChart('chart17', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/matchesvsgoals_2023plseason.json');
-        embedChart('chart18', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/matchesvsgoals_2023plseason.json');
-
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+        // Chart 14 is left empty for now
+        embedChart('chart15', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/frozen chips.json');
+        embedChart('chart16', 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/chickenbyregion.json');
+        // Charts 17 and 18 are left empty for now
     </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Define the mapping of names between List 1 and List 2
+# Define the mapping of names between datasets
 name_mapping = {
     'Adygea': 'Adygey',
     'Altai Krai': 'Altay',
@@ -93,9 +93,9 @@ name_mapping = {
 url = 'https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/russian_grdp.csv'
 df = pd.read_csv(url)
 
-# Rename the regions in the dataframe according to the mapping
+# Rename the regions in the dataframe
 df['Federal subject'] = df['Federal subject'].replace(name_mapping)
 
-# Save the updated dataframe to a new CSV or inspect it
+# Save the updated dataframe to a new CSV
 df.to_csv('updated_russian_grdp.csv', index=False)
-print(df.head())  # Display the first few rows to verify the changes
+
