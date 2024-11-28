@@ -24,7 +24,7 @@
     },
     {
       "name": "maxDate",
-      "value": "2024-10-31",
+      "value": "2023-2-31",
       "bind": {
         "input": "date",
         "min": "2022-11-01",

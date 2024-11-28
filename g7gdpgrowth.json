@@ -1,0 +1,87 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "GDP Growth Rate by Country (G7 Countries)",
+      "subtitle": "Source: World Bank",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
+    },
+    "width": 600,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/tidy_gdp_growth_rate.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "Year": "date",
+          "GDP Growth Rate": "number"
+        }
+      }
+    },
+    "view": {"strokeOpacity": 0},
+    "params": [
+      {
+        "name": "country_select",
+        "value": "United Kingdom",
+        "bind": {
+          "input": "select",
+          "options": [
+            "United Kingdom",
+            "Italy",
+            "Canada",
+            "Germany",
+            "Japan",
+            "France",
+            "United States"
+          ],
+          "name": "Select Country: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum['Country Name'] == country_select"
+      }
+    ],
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": ""
+      },
+      "y": {
+        "field": "GDP Growth Rate",
+        "type": "quantitative",
+        "title": "GDP Growth Rate (%)"
+      },
+      "color": {
+        "field": "Country Name",
+        "type": "nominal",
+        "legend": null
+      },
+      "tooltip": [
+        {
+          "field": "Country Name",
+          "type": "nominal"
+        },
+        {
+          "field": "Year",
+          "type": "temporal",
+          "title": "Year"
+        },
+        {
+          "field": "GDP Growth Rate",
+          "type": "quantitative",
+          "format": ".2f",
+          "title": "GDP Growth Rate (%)"
+        }
+      ]
+    }
+  }
+  

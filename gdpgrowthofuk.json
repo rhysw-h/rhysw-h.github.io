@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "GDP Growth Rate of the United Kingdom",
+      "subtitle": "Source: World Bank",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "middle",
+      "color": "black"
+    },
+    "width": 600,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/tidy_gdp_growth_rate.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "Year": "date",
+          "GDP Growth Rate": "number"
+        }
+      }
+    },
+    "view": {"strokeOpacity": 0},
+    "params": [
+      {
+        "name": "minYear",
+        "value": 1980,
+        "bind": {
+          "input": "range",
+          "min": 1980,
+          "max": 2022,
+          "step": 1,
+          "name": "Start year:"
+        }
+      },
+      {
+        "name": "maxYear",
+        "value": 2022,
+        "bind": {
+          "input": "range",
+          "min": 1980,
+          "max": 2022,
+          "step": 1,
+          "name": "End year:"
+        }
+      }
+    ],
+    "transform": [
+      {"calculate": "year(datum.Year)", "as": "year"},
+      {
+        "filter": "datum['Country Name'] == 'United Kingdom' && datum.year >= minYear && datum.year <= maxYear"
+      }
+    ],
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "GDP Growth Rate",
+        "type": "quantitative",
+        "title": "GDP Growth Rate (%)"
+      },
+      "tooltip": [
+        {
+          "field": "Year",
+          "type": "temporal",
+          "title": "Year"
+        },
+        {
+          "field": "GDP Growth Rate",
+          "type": "quantitative",
+          "format": ".2f",
+          "title": "GDP Growth Rate (%)"
+        }
+      ]
+    }
+  }
+  
