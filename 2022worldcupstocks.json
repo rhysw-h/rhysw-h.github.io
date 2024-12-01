@@ -34,15 +34,12 @@
     }
   ],
   "transform": [
-    {
-      "calculate": "toDate(datum.Date)",
-      "as": "parsedDate"
-    },
+    {"calculate": "toDate(datum.Date)", "as": "parsedDate"},
     {"filter": "datum.parsedDate >= toDate(minDate)"},
     {"filter": "datum.parsedDate <= toDate(maxDate)"},
     {
-    "filter": "datum['ADS\\.DE'] > 0 && datum['005380\\.KS'] > 0 && datum['KO'] > 0 && datum['V'] > 0"
-  }
+      "filter": "datum['ADS\\.DE'] > 0 && datum['005380\\.KS'] > 0 && datum['KO'] > 0 && datum['V'] > 0"
+    }
   ],
   "layer": [
     {
@@ -81,14 +78,14 @@
           "mark": {"type": "line", "point": {"size": 10}},
           "encoding": {
             "y": {"field": "005380\\.KS", "type": "quantitative"},
-            "color": {"value": "#FF0000"}
+            "color": {"value": "#00ff44"}
           }
         },
         {
           "mark": {"type": "line", "point": {"size": 10}},
           "encoding": {
             "y": {"field": "KO", "type": "quantitative"},
-            "color": {"value": "#00FF00"}
+            "color": {"value": "#ff1100"}
           }
         },
         {
@@ -104,7 +101,8 @@
   "config": {
     "legend": {
       "title": null,
-      "labelExpr": "datum.label == 'ADS\\.DE' ? 'Adidas' : datum.label == '005380\\.KS' ? 'Hyundai' : datum.label == 'KO' ? 'Coca-Cola' : 'Visa'"
+      "labelExpr": "datum.label == 'ADS\\.DE' ? 'Adidas' : datum.label == '005380\\.KS' ? 'Hyundai' : datum.label == 'KO' ? 'Coca-Cola' : 'Visa'",
+      "legend": true
     }
   }
 }

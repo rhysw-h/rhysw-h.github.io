@@ -1,57 +1,35 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Bubble chart of GDP per Capita vs Points per Game, with bubble size representing World Cup participations",
-    "data": {
-      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/world_cup_gdppc_merged.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bubble chart of GDP per Capita vs Points per Game, with bubble size representing World Cup participations",
+  "data": {
+    "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/world_cup_gdppc_merged.csv"
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "GDPPC", "type": "quantitative", "title": "GDP per Capita"},
+    "y": {"field": "ppg", "type": "quantitative", "title": "Points per Game"},
+    "size": {
+      "field": "Part",
+      "type": "quantitative",
+      "title": "World Cup Participations",
+      "scale": {"range": [15, 130]},
+      "legend": null
     },
-    "mark": "circle",
-    "encoding": {
-      "x": {
-        "field": "GDPPC",
-        "type": "quantitative",
-        "title": "GDP per Capita"
-      },
-      "y": {
-        "field": "ppg",
-        "type": "quantitative",
-        "title": "Points per Game"
-      },
-      "size": {
+    "tooltip": [
+      {"field": "Team", "type": "nominal", "title": "Team"},
+      {"field": "GDPPC", "type": "quantitative", "title": "GDP per Capita"},
+      {"field": "ppg", "type": "quantitative", "title": "Points per Game"},
+      {
         "field": "Part",
         "type": "quantitative",
-        "title": "World Cup Participations",
-        "scale": {
-          "range": [15, 130]
-        }
-      },
-      "tooltip": [
-        {
-          "field": "Team",
-          "type": "nominal",
-          "title": "Team"
-        },
-        {
-          "field": "GDPPC",
-          "type": "quantitative",
-          "title": "GDP per Capita"
-        },
-        {
-          "field": "ppg",
-          "type": "quantitative",
-          "title": "Points per Game"
-        },
-        {
-          "field": "Part",
-          "type": "quantitative",
-          "title": "World Cup Participations"
-        }
-      ]
-    },
-    "title": {
-      "text": "GDP per Capita vs Points per Game of Participants",
-      "subtitle": "Source: IMF and Wikipedia",
-      "subtitleFontSize": 12,
-      "subtitleFontStyle": "italic"
-    }
+        "title": "World Cup Participations"
+      }
+    ]
+  },
+  "title": {
+    "text": "GDP per Capita vs Points per Game of Participants",
+    "subtitle": "Source: IMF and Wikipedia",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic"
   }
-  
+}

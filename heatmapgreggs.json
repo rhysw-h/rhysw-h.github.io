@@ -1,0 +1,77 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Heatmap showing the density of Greggs and Pret locations in England.",
+    "width": 700,
+    "height": 1000,
+    "autosize": {"type": "fit", "contains": "padding"},
+    "title": {
+      "text": "Heatmap showing the density of Greggs and Pret Locations in the UK",
+      "subtitle": "Data Sources: thomasforth github, cartographyvectors",
+      "anchor": "start", 
+      "fontSize": 20,
+      "subtitleFontSize": 14
+    },
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/united-kingdom-detailed-boundary_1061.geojson",
+          "format": {"type": "json", "property": "features"}
+        },
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "black", "strokeWidth": 0.5},
+        "encoding": {
+          "shape": {"field": "geometry", "type": "geojson"}
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/GreggsAndPret_Jan2020.csv",
+          "format": {"type": "csv"}
+        },
+        "transform": [
+          {"filter": "datum.Name === 'Greggs'"}
+        ],
+        "mark": {"type": "circle", "opacity": 0.5, "size": 100},
+        "encoding": {
+          "longitude": {"field": "Longitude", "type": "quantitative"},
+          "latitude": {"field": "Latitude", "type": "quantitative"},
+          "color": {
+            "value": "#1f77b4"
+          },
+          "tooltip": [
+            {"field": "Name", "title": "Location Type"},
+            {"field": "LocalAuthority", "title": "Local Authority"}
+          ]
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/GreggsAndPret_Jan2020.csv",
+          "format": {"type": "csv"}
+        },
+        "transform": [
+          {"filter": "datum.Name === 'Pret'"}
+        ],
+        "mark": {"type": "circle", "opacity": 0.5, "size": 100},
+        "encoding": {
+          "longitude": {"field": "Longitude", "type": "quantitative"},
+          "latitude": {"field": "Latitude", "type": "quantitative"},
+          "color": {
+            "value": "#ff7f0e"
+          },
+          "tooltip": [
+            {"field": "Name", "title": "Location Type"},
+            {"field": "LocalAuthority", "title": "Local Authority"}
+          ]
+        }
+      }
+    ],
+    "projection": {
+      "type": "mercator",
+      "scale": 3000,
+      "center": [-2.3, 54.5]
+    },
+    "config": {
+      "view": {"stroke": "transparent"}
+    }
+  }
+  

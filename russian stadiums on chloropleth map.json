@@ -1,82 +1,78 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 600,
-    "title": "Map of Russian Federal Subjects, with 2022 World Cup Stadiums",
-    "layer": [
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/ru.json",
-          "format": {
-            "property": "features"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "title": {
+    "text": "Map of Russian Federal Subjects, with 2022 World Cup Stadiums",
+    "subtitle": "Source: timurkanaz github and Wikipedia",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/ru.json",
+        "format": {"property": "features"}
+      },
+      "projection": {"type": "mercator"},
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "color": {
+          "field": "2022 (billion USD)",
+          "type": "quantitative",
+          "title": "GDP (billion USD)",
+          "scale": {
+            "type": "linear",
+            "scheme": "viridis",
+            "domain": [0, 125],
+            "clamp": true
           }
         },
-        "projection": {
-          "type": "mercator"
-        },
-        "mark": {
-          "type": "geoshape",
-          "stroke": "white",
-          "strokeWidth": 0.5
-        },
-        "encoding": {
-          "color": {
+        "tooltip": [
+          {
+            "field": "properties.name",
+            "type": "nominal",
+            "title": "Federal Subject"
+          },
+          {
             "field": "2022 (billion USD)",
             "type": "quantitative",
             "title": "GDP (billion USD)",
-            "scale": {
-              "type": "linear",
-              "scheme": "viridis",
-              "domain": [0, 125],
-              "clamp": true
-            }
-          },
-          "tooltip": [
-            {"field": "properties.name", "type": "nominal", "title": "Federal Subject"},
-            {"field": "2022 (billion USD)", "type": "quantitative", "title": "GDP (billion USD)", "format": ".2f"}
-          ]
-        },
-        "transform": [
-          {
-            "lookup": "properties.name",
-            "from": {
-              "data": {
-                "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/updated_russian_grdp.csv"
-              },
-              "key": "Federal subject",
-              "fields": ["2022 (billion USD)"]
-            }
+            "format": ".2f"
           }
         ]
       },
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/stadium%20and%20coordinates.csv"  
-        },
-        "mark": {
-          "type": "circle",
-          "color": "red",
-          "opacity": 0.8
-        },
-        "encoding": {
-          "longitude": {"field": "longitude", "type": "quantitative"},
-          "latitude": {"field": "latitude", "type": "quantitative"},
-          "size": {
-            "field": "capacity",
-            "type": "quantitative",
-            "scale": {
-              "type": "sqrt",
-              "domain": [0, 100000],
-              "range": [1, 150]  
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/main/updated_russian_grdp.csv"
             },
-            "title": "Stadium Capacity"
-          },
-          "tooltip": [
-            {"field": "name", "type": "nominal", "title": "Stadium"},
-            {"field": "capacity", "type": "quantitative", "title": "Capacity"}
-          ]
+            "key": "Federal subject",
+            "fields": ["2022 (billion USD)"]
+          }
         }
+      ]
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/stadium%20and%20coordinates.csv"
+      },
+      "mark": {"type": "circle", "color": "red", "opacity": 0.8},
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "field": "capacity",
+          "type": "quantitative",
+          "scale": {"type": "sqrt", "domain": [0, 100000], "range": [1, 150]},
+          "title": "Stadium Capacity"
+        },
+        "tooltip": [
+          {"field": "name", "type": "nominal", "title": "Stadium"},
+          {"field": "capacity", "type": "quantitative", "title": "Capacity"}
+        ]
       }
-    ]
-  }
-  
+    }
+  ]
+}

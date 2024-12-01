@@ -1,29 +1,28 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 600,
-    "title": "Map of Russian Federal Subjects",
-    "data": {
-      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/ru.json",
-      "format": {
-        "property": "features"
-      }
-    },
-    "projection": {
-      "type": "mercator"
-    },
-    "mark": {
-      "type": "geoshape",
-      "stroke": "black",
-      "strokeWidth": 0.5,
-      "fill": "#a6cee3"
-    },
-    "encoding": {
-      "tooltip": {
-        "field": "properties.name",
-        "type": "nominal",
-        "title": "Federal Subject"
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "title": {
+    "text": "Map of Russian Federal Subjects",
+    "subtitle": "Source: timurkanaz github and Wikipedia",
+    "subtitleFontSize": 12,
+    "subtitleFontStyle": "italic"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/ru.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "mercator"},
+  "mark": {
+    "type": "geoshape",
+    "stroke": "black",
+    "strokeWidth": 0.5,
+    "fill": "#a6cee3"
+  },
+  "encoding": {
+    "tooltip": {
+      "field": "properties.name",
+      "type": "nominal",
+      "title": "Federal Subject"
     }
   }
-  
+}
