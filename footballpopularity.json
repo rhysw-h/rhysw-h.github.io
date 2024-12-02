@@ -87,7 +87,7 @@
             "dx": -5,
             "dy": -5,
             "fontSize": 10
-          },
+          }
         }
       ]
     },
@@ -179,7 +179,7 @@
             "text": {"value": "Source: datapandas.org, wikipedia"},
             "x": {"value": 290},
             "y": {"value": 310}
-          },
+          }
         }
       ]
     }
