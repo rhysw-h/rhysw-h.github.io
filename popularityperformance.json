@@ -1,0 +1,187 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/rhysw-h/rhysw-h.github.io/refs/heads/main/final_popularity_dataset.csv"
+    },
+    "hconcat": [
+      {
+        "title": "Most Popular Sport is Football",
+        "width": 300,
+        "height": 250,
+        "transform": [
+          {"filter": "datum.football_most_popular == 1"}
+        ],
+        "layer": [
+          {
+            "mark": "circle",
+            "encoding": {
+              "x": {
+                "field": "Part",
+                "type": "quantitative",
+                "title": "World Cup Participations",
+                "scale": {"domain": [0, 25]},
+                "axis": {"grid": false}
+              },
+              "y": {
+                "field": "ppg",
+                "type": "quantitative",
+                "title": "Points Per Game",
+                "axis": {"grid": false}
+              },
+              "color": {
+                "field": "continent",
+                "type": "nominal",
+                "title": "Continent"
+              },
+              "tooltip": [
+                {"field": "Team", "type": "nominal", "title": "Country"},
+                {"field": "Part", "type": "quantitative", "title": "Participations"},
+                {"field": "ppg", "type": "quantitative", "title": "Points Per Game"}
+              ]
+            }
+          },
+          {
+            "mark": {"type": "line", "color": "red"},
+            "transform": [
+              {
+                "regression": "ppg",
+                "on": "Part",
+                "extent": [0, 25]
+              }
+            ],
+            "encoding": {
+              "x": {"field": "Part", "type": "quantitative"},
+              "y": {"field": "ppg", "type": "quantitative"}
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "top",
+              "dx": -5,
+              "dy": 5
+            },
+            "transform": [
+              {
+                "regression": "ppg",
+                "on": "Part",
+                "params": true
+              },
+              {
+                "calculate": "'R² = ' + format(datum.rSquared, '.2f')",
+                "as": "R2"
+              }
+            ],
+            "encoding": {
+              "text": {"field": "R2"},
+              "x": {"value": 290},
+              "y": {"value": 100}
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "bottom",
+              "dx": -5,
+              "dy": -5,
+              "fontSize": 10
+            },
+          }
+        ]
+      },
+      {
+        "title": "Most Popular Sport is not Football",
+        "width": 300,
+        "height": 250,
+        "transform": [
+          {"filter": "datum.football_most_popular == 0"}
+        ],
+        "layer": [
+          {
+            "mark": "circle",
+            "encoding": {
+              "x": {
+                "field": "Part",
+                "type": "quantitative",
+                "title": "World Cup Participations",
+                "scale": {"domain": [0, 14]},
+                "axis": {"grid": false}
+              },
+              "y": {
+                "field": "ppg",
+                "type": "quantitative",
+                "title": "Points Per Game",
+                "axis": {"grid": false}
+              },
+              "color": {
+                "field": "continent",
+                "type": "nominal",
+                "title": "Continent"
+              },
+              "tooltip": [
+                {"field": "Team", "type": "nominal", "title": "Country"},
+                {"field": "Part", "type": "quantitative", "title": "Participations"},
+                {"field": "ppg", "type": "quantitative", "title": "Points Per Game"}
+              ]
+            }
+          },
+          {
+            "mark": {"type": "line", "color": "red"},
+            "transform": [
+              {
+                "regression": "ppg",
+                "on": "Part",
+                "extent": [0, 14]
+              }
+            ],
+            "encoding": {
+              "x": {"field": "Part", "type": "quantitative"},
+              "y": {"field": "ppg", "type": "quantitative"}
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "top",
+              "dx": -5,
+              "dy": 5
+            },
+            "transform": [
+              {
+                "regression": "ppg",
+                "on": "Part",
+                "params": true
+              },
+              {
+                "calculate": "'R² = ' + format(datum.rSquared, '.2f')",
+                "as": "R2"
+              }
+            ],
+            "encoding": {
+              "text": {"field": "R2"},
+              "x": {"value": 290},
+              "y": {"value": 100}
+            }
+          },
+          {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "bottom",
+              "dx": -5,
+              "dy": -5,
+              "fontSize": 10
+            },
+            "encoding": {
+              "text": {"value": "Source: datapandas.org, wikipedia"},
+              "x": {"value": 290},
+              "y": {"value": 310}
+            },
+          }
+        ]
+      }
+    ]
+  }  
