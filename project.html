@@ -181,17 +181,17 @@ For the tourism arrivals and expenditure charts, I filtered out the World Cup ye
             </p>    
             
             <p>
-                    One of the challenges I encountered was creating the points-per-game versus GDP per capita chart. I began by scraping points data from a Wikipedia table and calculating points per game for each country by dividing total points by games played. I also had to standardise the country names in the GDP per capita dataset to match those in the World Cup participants dataset, allowing me to merge the two.
+                    One of the challenges I encountered was creating the points-per-game versus GDP per capita chart. I began by scraping points data from a <a href="https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup" target="_blank">Wikipedia table</a> and calculating points per game for each country by dividing total points by games played. I also had to standardise the country names in the GDP per capita dataset to match those in the World Cup participants dataset, allowing me to merge the two.
                         </p>
                         <a href="https://colab.research.google.com/drive/1ouUSVA2GaRntv0ES2FsSOj3DD9w0EQNC?usp=sharing" target="_blank" class="small-button">Google Colab for PPG vs GDPPC</a>
                     <p>I used the Yfinance API to collect stock prices from 2022 to 2024 but opted against using an updating one as I thought two years was plenty of time to see trends from that World Cup. I then wrote a Python script to combine these prices into a single CSV file and rebased all values to 100 at the start for easier comparison.
                         </p>
                         <a href="https://colab.research.google.com/drive/1tCrrA2NOHJKPy318t_WLp3yKcwVzcC9C?usp=sharing" target="_blank" class="small-button">Google Colab for Stock Data</a>
 <p>
-    Using the PPG dataset, I combined it with another one which had <a href= “https://www.datapandas.org/ranking/most-popular-sport-by-country" target="_blank">the most popular sports of each country in the world</a> to create  the two scatter plots. 
+    Using the PPG dataset, I combined it with another one which had <a href= "https://www.datapandas.org/ranking/most-popular-sport-by-country" target="_blank">the most popular sports of each country in the world</a> to create  the two scatter plots. 
 </p>
 
-                    <p>Finally, the Russian regional GDP map presented a significant challenge due to inconsistencies between the federal subject names in the geojson file and the names in the regional GDP table I scraped from Wikipedia. Some names were spelled differently, and others were entirely mismatched. I resolved this by writing a Python script to rename regions in one dataset and iteratively check for consistency until all names matched.
+                    <p>Finally, the Russian regional GDP map presented a significant challenge due to inconsistencies between the federal subject names in the <a href= "https://github.com/timurkanaz/Russia_geojson_OSM" target="_blank">geojson file</a> and the names in the regional GDP table I scraped from <a href= "https://en.wikipedia.org/wiki/List_of_Russian_federal_subjects_by_GRDP" target="_blank">Wikipedia</a>. Some names were spelled differently, and others were entirely mismatched. I resolved this by writing a Python script to rename regions in one dataset and iteratively check for consistency until all names matched.
                 </p>
                 <a href="https://colab.research.google.com/drive/18JRp40Cjhmqc-0n4330mrlgFKRFtqyt9?usp=sharing" target="_blank" class="small-button">Scraping and changing names of Russian GRDP</a>
         </div>

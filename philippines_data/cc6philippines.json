@@ -225,8 +225,4 @@
       "transform": [{"filter": "datum.value != null"}]
     }
   ]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8f41df699bee1b77ba791e7f187b1038a9116c65
