@@ -120,85 +120,86 @@
         <h1>Soccernomics: The Economics of the Football World Cup</h1>
     </div>
     <div class="content-container">
-        <h3>This project examines the relationship between football and economics, focusing on the FIFA World Cup. It aims to explore the potential benefits of hosting the tournament by analysing data on tourism arrivals, tourism expenditure, and GDP growth in host nations. The project also looks at the economic impact of sponsorship on corporate stock prices and investigates whether there is any correlation between a country’s GDP per capita and its performance in the tournament. Using a range of data visualisations, including maps and charts, this work aims to provide a deeper understanding of the World Cup’s economic significance and global influence.</h3>
+        <h3>This project aims to investigate the economic impacts of the FIFA World Cup, firstly focusing on the benefits of hosting the tournament. It examines whether hosting leads to measurable increases in tourism arrivals, tourism expenditure, and GDP growth, providing insights into whether it is beneficial for hosts. Additionally, the project explores the financial implications for corporate sponsors by analysing stock price movements during and after the tournament, offering a perspective on potential returns on investment. To further understand the relationship between economics and football performance, the study also evaluates whether GDP per capita correlates with points per game in World Cup history, while also considering the influence of football’s popularity and development. A regional analysis of stadium locations for the 2018 Russia World Cup highlights how host nations leverage infrastructure to balance logistics and economic benefits. By combining data visualisations and statistical insights, this research aims to provide a comprehensive analysis of the FIFA World Cup’s economic significance and global influence.</h3>
         <div class="chart-section">
             <div class="chart-description">
                 <h2>Is hosting the World Cup beneficial?</h2>
-                <p>I looked at whether there was an increase in tourism arrivals during the years of the world cup in countries that have hosted it.</p>
+                <p>I looked at whether there was an increase in tourism arrivals during the years of the World Cup in countries that have hosted it.</p>
             </div>
             <figure id="Location1"></figure>
         </div>
         <div class="chart-section">
             <div class="chart-description">
-                <p>I then looked at whether there was an increase in tourism expenditure during the years of the world cup in the same countries.</p>
+                <p>I then looked at whether there was an increase in tourism expenditure during the years of the World Cup in the same countries.</p>
             </div>
             <figure id="Location2"></figure>
         </div>
         <div class="chart-section">
             <div class="chart-description">
                 <h2></h2>
-                <p>This chart shows the GDP growth for World Cup winners and host countries. This was to see whether there was a benefit to winning the World Cup compared to hosting it.</p>
+                <p>This chart shows the GDP growth for World Cup winners and hosts.</p>
             </div>
             <figure id="Location3"></figure>
         </div>
-        <div class="chart-section">
-            <div class="chart-description">
-                <h2>Conclusion 1</h2>
-                <p>I observed a positive trend in tourism arrivals in the years following the World Cup, suggesting that more tourists may have visited the host country during the event and continued to do so afterwards. Every host country in our analysis, with the exception of Russia, experienced an increase in tourist arrivals. Russia's deviation from this trend is likely due to COVID-19, which occured a year after that World Cup and reduced global travel drastically. Additionally, we noted an increase in tourism expenditure in three out of the five host countries examined. However, the increase was not substantial enough to attribute solely to the impact of hosting the World Cup. Lastly, I compared GDP growth of hosts and winners in the three World Cup years with complete data for hosts and winners of those respective tournaments. This was to see whether there was a larger benefit to winning the world cup over hosting it, and I found that host countries experienced higher GDP growth than the winners for the most part. It is unclear whether this higher growth was from hosting the World Cup or other endogenous factors that may have occurred during those years.</p>
-            </div>
-        </div>
+        
+    
         <div class="chart-section">
             <div class="chart-description">
                 <h2>World Cup Sponsors</h2>
-                <p>The 2022 World Cup in Qatar had 4 main sponsors: Adidas, Hyundai, Coca-cola, and Visa. I created a chart of their stock prices before, during and after the world cup to see whether their values went up due to the sponsorship (the period of the World Cup is shaded in grey). I rebased each one on 100 to make comparison easier. I opted against using an updating API and instead downloaded the API data as the World Cup occurred a while ago and recent data would not be useful in comparing whether sponsoring the tournament was beneficial to their stock prices, although I did give the option to look at stock prices two years after the tournament. </p>
+                <p>The 2022 World Cup in Qatar had 4 main sponsors. I created a chart of their stock prices to see whether their values went up due to the sponsorship (the period of the World Cup is shaded in grey). I rebased each one on 100 to make comparison easier. </p>
             </div>
             <figure id="Location4"></figure>
         </div>
         <div class="chart-section">
             <div class="chart-description">
                 <h2>National Team Performance</h2>
-                <p>I created a bubble chart of GDP per capita of World Cup participants and compared it to their points per game of all the tournaments they took part in. A bigger bubble means that the team has participated in more competitions. This was created by datascraping a table of all the teams' performances from Wikipedia and dividing points by games played. I then merged this dataset with a GDP per Capita dataset I found on IMF.</p>
+                <p>I created a bubble chart of GDP per capita of World Cup participants and compared it to their points per game of all the tournaments they took part in. </p>
             </div>
             <figure id="Location5"></figure>
-            <p>There doesn't seem to be much correlation between GDP per Capita and performance in World Cups but we can see that teams that have participated in more competitions have also achieved the most points per game for the most part.</p>
             <div class="chart-description">
             <p>
                 I created two scatter plots showing points per game and participations: the first one containing countries where football is their most popular sport, and the other one where it is not.
             </p>
             </div>
             <figure id="Location7"></figure>
-            <p>
-                The two scatter charts show that countries where football is the most popular sport have a higher mean points per game than those where it is not. This suggests that football popularity is linked to better World Cup performance. Continents with strong football traditions, such as South America and Europe, tend to outperform those from regions where football is less dominant, such as Asia. This regional difference highlights the influence of football's historical development. The R-squared value for countries where football is the dominant sport is 53%, indicating a moderate correlation between World Cup participation and points per game. For countries where football is not the most popular sport, the R-squared value is 22%, likely due to a smaller dataset, as these countries are less frequent World Cup qualifiers.
-            </p>
+           
         </div>
         <div class="chart-section">
             <div class="chart-description">
                 <h2>Russia World Cup Stadiums and Regional GDP</h2>
-                <p>I then created a vegalite map containing the federal subjects of Russia with their respective regional GDPs. The GRDP data was datascraped from Wikipedia with this Python code. I then layered the stadium locations from the 2018 World Cup and noticed how almost every one chosen was in a region with high GDP, and how all of them were located in Western Russia, probably for convenience for supporters.</p>
+                <p>I then created a vegalite map containing the federal subjects of Russia with their respective regional GDPs. </p>
             </div>
             <figure id="Location6"></figure>
         </div>
 
         <div>
-            <h2>Data Cleaning Challenges</h2>
-                <p>
+            <h2>Data Access & Cleaning Challenges</h2>
+            <p>
+                
+For the tourism arrivals and expenditure charts, I filtered out the World Cup years and host countries using a mixture of Excel and Python to get the data in tidy form for ease of use with VegaLite and didn’t have much trouble with them.
+
+            </p>    
+            
+            <p>
                     One of the challenges I encountered was creating the points-per-game versus GDP per capita chart. I began by scraping points data from a Wikipedia table and calculating points per game for each country by dividing total points by games played. I also had to standardise the country names in the GDP per capita dataset to match those in the World Cup participants dataset, allowing me to merge the two.
                         </p>
                         <a href="https://colab.research.google.com/drive/1ouUSVA2GaRntv0ES2FsSOj3DD9w0EQNC?usp=sharing" target="_blank" class="small-button">Google Colab for PPG vs GDPPC</a>
-                    <p>I used the Yfinance API to collect stock prices from 2022 to 2024 as datascraping from the Yahoo Finance webpage was proving difficult. I then wrote a Python script to combine these prices into a single CSV file and rebased all values to 100 at the start for easier comparison.
+                    <p>I used the Yfinance API to collect stock prices from 2022 to 2024 but opted against using an updating one as I thought two years was plenty of time to see trends from that World Cup. I then wrote a Python script to combine these prices into a single CSV file and rebased all values to 100 at the start for easier comparison.
                         </p>
                         <a href="https://colab.research.google.com/drive/1tCrrA2NOHJKPy318t_WLp3yKcwVzcC9C?usp=sharing" target="_blank" class="small-button">Google Colab for Stock Data</a>
+<p>
+    Using the PPG dataset, I combined it with another one which had <a href= “https://www.datapandas.org/ranking/most-popular-sport-by-country" target="_blank">the most popular sports of each country in the world</a> to create  the two scatter plots. 
+</p>
+
                     <p>Finally, the Russian regional GDP map presented a significant challenge due to inconsistencies between the federal subject names in the geojson file and the names in the regional GDP table I scraped from Wikipedia. Some names were spelled differently, and others were entirely mismatched. I resolved this by writing a Python script to rename regions in one dataset and iteratively check for consistency until all names matched.
                 </p>
                 <a href="https://colab.research.google.com/drive/18JRp40Cjhmqc-0n4330mrlgFKRFtqyt9?usp=sharing" target="_blank" class="small-button">Scraping and changing names of Russian GRDP</a>
         </div>
         <div>
             <h2>Final Conclusion</h2>
-                <p>
-                    This project explored the economic impacts of the FIFA World Cup, using multiple data visualisations. Hosting the World Cup appears to bring benefits to host nations, particularly through increased tourist arrivals and, to a lesser extent, tourism expenditure. These trends suggest that hosting this tournament can enhance a nation's visibility and attractiveness on the global stage, even in the years following the event. However, the economic benefits are not uniformly significant, and attributing GDP growth solely to the tournament may not be reliable due to other influencing factors. The analysis of sponsor stock prices showed no consistent patterns of financial gain during the tournament period, raising questions about the immediate economic returns for companies investing in World Cup sponsorships, however there may be an argument for long term benefits, as we saw increasing trends in the stock prices for Adidas, Hyundai and Visa during the following 2 year period. On the other hand, examining GDP per capita against team performance revealed little correlation, indicating that football success is influenced more by other factors, such as sporting infrastructure and football popularity, which showed to affect points per game and the number of times participated. Finally, the study of Russia's 2018 World Cup stadiums locations highlighted the strategic placement of venues in economically significant regions, demonstrating how host nations leverage existing infrastructure for logistical convenience and to maximise regional benefits. The World Cup is a complex event that delivers a mix of economic and cultural significance. While host nations can achieve measurable gains in tourism and possibly GDP growth, the broader impacts are often difficult to quantify. Sponsorship and participation bring global exposure but not guaranteed financial returns.
+                <p> 
+                    Hosting the FIFA World Cup appears to bring benefits to host nations, particularly through increased tourist arrivals and, to a lesser extent, tourism expenditure. These trends suggest that hosting this tournament can enhance a nation's visibility and attractiveness on the global stage, even in the years following the event. The benefits are not significant though, and attributing GDP growth solely to the tournament may not be reliable. The analysis of sponsor stock prices showed no consistent patterns of financial gain during the tournament period, raising questions about the economic returns for companies investing in World Cup sponsorships, however there may be an argument for long term benefits, as we saw increasing trends in the stock prices for 3 stocks following the tournament. Examining GDP per capita against team performance revealed little correlation, indicating that football success is influenced more by other factors, such as sporting infrastructure and football popularity, which showed to affect points per game. Finally, Russia’s 2018 World Cup stadium locations highlighted the strategic choice of stadiums in economically significant regions, probably for convenience logistically and for travelling fans.
                 </p>
-                <p></p>
-                <p></p>
         </div>
     </div>
     <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to Top</button>
